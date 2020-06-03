@@ -23,12 +23,12 @@
 20. You can see router.get is just looking for "/" - signifying the site's main page: this is where we are handling everyone that is asking for the homepage (as opposed to "/some-other-specific-text-to-bring-us-to-a-different-page"). 
 21. Res.render handles views, and if you open the "views" folder, you can see there is one called index.ejs. So the "index" next to res.render is referring to the view index.ejs. This page will render this view. We're also handing in an object called title, with the value automatically "Express." That value can of course be changed.
 22. Open the "views folder" and click on index.ejs. You can now see the code for the view our homepage is going to use as a template. You can see in the HTML that the object title is written twice. When this view is used in index.js, the value that title is given in index.js will fill in. As a test, go back to index.js and change the value of title from "Express" to something else, such as "Watch Together".
-23. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C to stop the server.T
+23. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C to stop the server. Then, you can go back to your last command, "npm start" to restart the server. Hit enter.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NTY5NTk0LDExNjIzNzk0NzYsMTM3OD
-EzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3OTQ1LC0xNDMwMTYw
-MTkzLDI1NTU2NDAxNiwtMTYxOTI3MTAwNywtNTA4NTMwOTM0LC
-0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUy
-ODgyNl19
+eyJoaXN0b3J5IjpbLTM0NTc1ODMxNiwxMTYyMzc5NDc2LDEzNz
+gxMzg1MjEsLTE4MjA4MTIyMTgsMTI3NzMxNzk0NSwtMTQzMDE2
+MDE5MywyNTU1NjQwMTYsLTE2MTkyNzEwMDcsLTUwODUzMDkzNC
+wtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMjI1NDQ0Njg3LDEzODM1
+Mjg4MjZdfQ==
 -->
