@@ -19,13 +19,15 @@
 
 9. Open up your computer's terminal.
  
-11. In Terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is "cd Development(or whatever you have called your folder)".
+10. In Terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is "cd Development(or whatever you have called your folder)".
+
+11. First making sure you are now making changes in the development folder you tried to open, next type in "git clone INSERT-URL-YOU-COPIED" and hit enter.
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODIyOTU0OCwtMTc2ODE2MzE3OCw1OD
-IyNjU2MTAsMjI1NDQ0Njg3LDEzODM1Mjg4MjZdfQ==
+eyJoaXN0b3J5IjpbNTg2NTQ5MDU2LC0xNzY4MTYzMTc4LDU4Mj
+I2NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgyNl19
 -->
