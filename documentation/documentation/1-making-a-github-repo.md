@@ -37,11 +37,11 @@
 
 18. Open your internet browser of choice (ex: Chrome) and type in "localhost:3000" and then hit enter. You should see **I'm not sure what to call this page, the home page, the express app?**
 
-19. Next, navigate into Atom. 
+19. Next, navigate into Atom. Open the routes folder and click on index.js. This is where we are handling everyone that is asking for the homepage.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMj
-c3MzE3OTQ1LC0xNDMwMTYwMTkzLDI1NTU2NDAxNiwtMTYxOTI3
-MTAwNywtNTA4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMC
-wyMjU0NDQ2ODcsMTM4MzUyODgyNl19
+eyJoaXN0b3J5IjpbLTU1MTIyMTM3OCwxMzc4MTM4NTIxLC0xOD
+IwODEyMjE4LDEyNzczMTc5NDUsLTE0MzAxNjAxOTMsMjU1NTY0
+MDE2LC0xNjE5MjcxMDA3LC01MDg1MzA5MzQsLTE3NjgxNjMxNz
+gsNTgyMjY1NjEwLDIyNTQ0NDY4NywxMzgzNTI4ODI2XX0=
 -->
