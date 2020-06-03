@@ -36,11 +36,12 @@
 17. Then, we'll type in "npm start" and hit enter. 
 
 18. Open your internet browser of choice (ex: Chrome) and type in "localhost:3000" and then hit enter. You should see **I'm not sure what to call this page, the home page, the express app?**
-19. 
+
+19. Next, navigate into Atom. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA4MTIyMTgsMTI3NzMxNzk0NSwtMT
-QzMDE2MDE5MywyNTU1NjQwMTYsLTE2MTkyNzEwMDcsLTUwODUz
-MDkzNCwtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMjI1NDQ0Njg3LD
-EzODM1Mjg4MjZdfQ==
+eyJoaXN0b3J5IjpbMTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMj
+c3MzE3OTQ1LC0xNDMwMTYwMTkzLDI1NTU2NDAxNiwtMTYxOTI3
+MTAwNywtNTA4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMC
+wyMjU0NDQ2ODcsMTM4MzUyODgyNl19
 -->
