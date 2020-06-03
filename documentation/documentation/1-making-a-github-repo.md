@@ -17,13 +17,15 @@
 
 8. Now, click the green "Clone or download" button and copy the URL by clicking the clipboard icon next to the URL.
 
-9. Go to your computer's terminal
+9. Open up your computer's terminal.
+ 
+11. In Terminal, open up the folder
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgxNjMxNzgsNTgyMjY1NjEwLDIyNT
-Q0NDY4NywxMzgzNTI4ODI2XX0=
+eyJoaXN0b3J5IjpbMjEzMjM3MjI3NywtMTc2ODE2MzE3OCw1OD
+IyNjU2MTAsMjI1NDQ0Njg3LDEzODM1Mjg4MjZdfQ==
 -->
