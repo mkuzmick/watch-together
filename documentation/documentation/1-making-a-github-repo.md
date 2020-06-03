@@ -37,11 +37,11 @@
 
 18. Open your internet browser of choice (ex: Chrome) and type in "localhost:3000" and then hit enter. You should see **I'm not sure what to call this page, the home page, the express app?**
 
-19. Next, navigate into Atom. Open the "routes" folder and click on index.js. This is where we are handling everyone that is asking for the homepage. "Res.render" handles views, and if you open the "views" folder 
+19. Next, navigate into Atom. Open the "routes" folder and click on index.js. This is where we are handling everyone that is asking for the homepage. "Res.render" handles views, and if you open the "views" folder, you can see there is one called index.ejs. So the "index" next to res.render is referring to the view index.ejs.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTY4Mzk5MywxMzc4MTM4NTIxLC0xOD
-IwODEyMjE4LDEyNzczMTc5NDUsLTE0MzAxNjAxOTMsMjU1NTY0
-MDE2LC0xNjE5MjcxMDA3LC01MDg1MzA5MzQsLTE3NjgxNjMxNz
-gsNTgyMjY1NjEwLDIyNTQ0NDY4NywxMzgzNTI4ODI2XX0=
+eyJoaXN0b3J5IjpbNjA2MzgwNDMyLDEzNzgxMzg1MjEsLTE4Mj
+A4MTIyMTgsMTI3NzMxNzk0NSwtMTQzMDE2MDE5MywyNTU1NjQw
+MTYsLTE2MTkyNzEwMDcsLTUwODUzMDkzNCwtMTc2ODE2MzE3OC
+w1ODIyNjU2MTAsMjI1NDQ0Njg3LDEzODM1Mjg4MjZdfQ==
 -->
