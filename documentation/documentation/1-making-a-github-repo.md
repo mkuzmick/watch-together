@@ -30,10 +30,12 @@
 14. Confirming you are in the watch-together folder, you can then open this folder up in atom. You do this by typing "atom ." into your terminal and clicking enter. Atom will then open up with all of the components of the watch-together folder. 
 
 15. In terminal, type in "npx express generator --view.ejs ." and then hit enter.
-16. Ne
+
+16. Next, still in terminal, type in "npm i" and hit enter. This will install all of the dependencies. **do we wa**
+17. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDAwMDgyNiwtMTYxOTI3MTAwNywtNT
+eyJoaXN0b3J5IjpbMTA4NjEzODYyNCwtMTYxOTI3MTAwNywtNT
 A4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2
 ODcsMTM4MzUyODgyNl19
 -->
