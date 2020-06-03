@@ -29,10 +29,11 @@
 
 14. Confirming you are in the watch-together folder, you can then open this folder up in atom. You do this by typing "atom ." into your terminal and clicking enter. Atom will then open up with all of the components of the watch-together folder. 
 
-16. In terminal, type in "npx express generator . --view"
+15. In terminal, type in "npx express generator --view.ejs ." and then hit enter.
+16. Ne
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzQ2MTgzNiwtMTYxOTI3MTAwNywtNT
+eyJoaXN0b3J5IjpbMTQwMDAwMDgyNiwtMTYxOTI3MTAwNywtNT
 A4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2
 ODcsMTM4MzUyODgyNl19
 -->
