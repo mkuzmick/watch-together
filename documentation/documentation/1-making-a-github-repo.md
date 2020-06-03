@@ -9,12 +9,14 @@
 
 4. Check the box to initialize this repository with a README. **what does this mean, do we want an explanation here?**
 
-5. Click the "Add .gitignore: none" button and type in and then select "node".
+5. Click the "Add .gitignore: none" button to type in, and then select, "node".
+
+6. Click "Create repository"!
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzQ1Nzg4OSw1ODIyNjU2MTAsMjI1ND
-Q0Njg3LDEzODM1Mjg4MjZdfQ==
+eyJoaXN0b3J5IjpbLTEwNDk0MjY0NzIsNTgyMjY1NjEwLDIyNT
+Q0NDY4NywxMzgzNTI4ODI2XX0=
 -->
