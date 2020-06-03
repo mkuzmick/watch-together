@@ -31,11 +31,13 @@
 
 15. In terminal, type in "npx express generator --view.ejs ." and then hit enter.
 
-16. Next, still in terminal, type in "npm i" and hit enter. This will install all of the dependencies. **do we wa**
-17. 
+16. Next, still in terminal, type in "npm i" and hit enter. This will install all of the dependencies. **do we want to explain here what that means**
+
+17. Then, we'll type in "npm start" and hit enter.
+18.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjEzODYyNCwtMTYxOTI3MTAwNywtNT
-A4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2
-ODcsMTM4MzUyODgyNl19
+eyJoaXN0b3J5IjpbLTE1NDc3MTIzNDIsLTE2MTkyNzEwMDcsLT
+UwODUzMDkzNCwtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMjI1NDQ0
+Njg3LDEzODM1Mjg4MjZdfQ==
 -->
