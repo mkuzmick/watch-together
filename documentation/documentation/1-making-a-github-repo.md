@@ -15,12 +15,15 @@
 
 7. Click "Create repository".
 
+8. Now, click the green "Clone or download" button and copy the URL by clicking the clipboard icon next to the URL.
+
+9. Go to your computer's terminal
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDI4OTk1NSw1ODIyNjU2MTAsMjI1ND
-Q0Njg3LDEzODM1Mjg4MjZdfQ==
+eyJoaXN0b3J5IjpbLTE3NjgxNjMxNzgsNTgyMjY1NjEwLDIyNT
+Q0NDY4NywxMzgzNTI4ODI2XX0=
 -->
