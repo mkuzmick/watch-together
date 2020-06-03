@@ -13,12 +13,14 @@
 
 6. Click the "Add a license" button and select "MIT License". **marlon, during your screencast you said this doesn't really matter. do we want this step in here?**
 
-7. Click "Create repository"!
+7. Click "Create repository".
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDA3OTUwMCw1ODIyNjU2MTAsMjI1ND
+eyJoaXN0b3J5IjpbMTA4MDI4OTk1NSw1ODIyNjU2MTAsMjI1ND
 Q0Njg3LDEzODM1Mjg4MjZdfQ==
 -->
