@@ -23,11 +23,12 @@
 
 11. First making sure you are now making changes in the development folder you tried to open, next type in "git clone INSERT-URL-YOU-COPIED" and hit enter.
 
+12. You can then type "ls" in the Terminal to list the items in the folder you are in. You should see cloned github folder listed.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2NTQ5MDU2LC0xNzY4MTYzMTc4LDU4Mj
-I2NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgyNl19
+eyJoaXN0b3J5IjpbLTUwODUzMDkzNCwtMTc2ODE2MzE3OCw1OD
+IyNjU2MTAsMjI1NDQ0Njg3LDEzODM1Mjg4MjZdfQ==
 -->
