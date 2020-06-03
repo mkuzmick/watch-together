@@ -10,7 +10,7 @@
 7. Click "Create repository".
 8. Now, click the green "Clone or download" button and copy the URL by clicking the clipboard icon next to the URL.
 9. Open up your computer's terminal.
-10. In terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is "cd Development(or whatever you have called your folder)". Cd stands for change directories. Hit enter.
+10. In terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is ``cd Development``(or whatever you have called your folder)". Cd stands for change directories. Hit enter.
 11. First making sure you are now making changes in the development folder you tried to open (you can tell which folder you are in by the text that comes up on the most recent line in terminal after hitting enter), next type in "git clone INSERT-URL-YOU-COPIED" and hit enter.
 12. You can then type "ls" in the terminal to list the items in the folder you are in. You should see cloned github folder listed.
 13. Next, open the folder by typing "cd watch-together" (which means change directories into the name of the new folder).
@@ -26,9 +26,9 @@
 23. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C to stop the server. Then, you can go back to your last command, "npm start" to restart the server. Hit enter.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTc1ODMxNiwxMTYyMzc5NDc2LDEzNz
-gxMzg1MjEsLTE4MjA4MTIyMTgsMTI3NzMxNzk0NSwtMTQzMDE2
-MDE5MywyNTU1NjQwMTYsLTE2MTkyNzEwMDcsLTUwODUzMDkzNC
-wtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMjI1NDQ0Njg3LDEzODM1
-Mjg4MjZdfQ==
+eyJoaXN0b3J5IjpbODY4MTk2NTA2LC0zNDU3NTgzMTYsMTE2Mj
+M3OTQ3NiwxMzc4MTM4NTIxLC0xODIwODEyMjE4LDEyNzczMTc5
+NDUsLTE0MzAxNjAxOTMsMjU1NTY0MDE2LC0xNjE5MjcxMDA3LC
+01MDg1MzA5MzQsLTE3NjgxNjMxNzgsNTgyMjY1NjEwLDIyNTQ0
+NDY4NywxMzgzNTI4ODI2XX0=
 -->
