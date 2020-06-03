@@ -19,13 +19,13 @@
 
 9. Open up your computer's terminal.
  
-11. In Terminal, open up the folder
+11. In Terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is "cd Development(or whatever you have called your folder)".
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjM3MjI3NywtMTc2ODE2MzE3OCw1OD
+eyJoaXN0b3J5IjpbMTc1ODIyOTU0OCwtMTc2ODE2MzE3OCw1OD
 IyNjU2MTAsMjI1NDQ0Njg3LDEzODM1Mjg4MjZdfQ==
 -->
