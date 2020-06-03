@@ -27,11 +27,10 @@
 
 13. Next, open the folder by typing "cd watch-together" (which means change directories into the name of the new folder).
 
-14. 
-
+14. Confirming you are in the new folder, you can then open this folder up in atom. You do this by typing "atom ." into your terminal and clicking enter. This will populate atom with the files and folders in the folder you are in 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTc2NzQyMywtNTA4NTMwOTM0LC0xNz
+eyJoaXN0b3J5IjpbMTM1NTg3NDM1NSwtNTA4NTMwOTM0LC0xNz
 Y4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgy
 Nl19
 -->
