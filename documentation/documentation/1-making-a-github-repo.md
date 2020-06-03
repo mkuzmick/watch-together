@@ -21,7 +21,7 @@
  
 10. In Terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is "cd Development(or whatever you have called your folder)". Cd stands for change directories.
 
-11. First making sure you are now making changes in the development folder you tried to open (the folder name will pop up automatically, next type in "git clone INSERT-URL-YOU-COPIED" and hit enter.
+11. First making sure you are now making changes in the development folder you tried to open (you can tell which folder you are in by the text that comes up on the mo, next type in "git clone INSERT-URL-YOU-COPIED" and hit enter.
 
 12. You can then type "ls" in the Terminal to list the items in the folder you are in. You should see cloned github folder listed.
 
@@ -30,7 +30,7 @@
 14. Confirming you are in the watch-together folder, you can then open this folder up in atom. You do this by typing "atom ." into your terminal and clicking enter. Atom will then open up with all of the components of the watch-together folder. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3NDgyNTU1LC01MDg1MzA5MzQsLTE3Nj
-gxNjMxNzgsNTgyMjY1NjEwLDIyNTQ0NDY4NywxMzgzNTI4ODI2
-XX0=
+eyJoaXN0b3J5IjpbMTIzODQyMTYzNSwtNTA4NTMwOTM0LC0xNz
+Y4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgy
+Nl19
 -->
