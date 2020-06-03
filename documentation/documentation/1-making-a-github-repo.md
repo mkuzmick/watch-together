@@ -39,11 +39,12 @@
 
 19. Next, navigate into Atom. Open the "routes" folder and click on index.js. 
 20. You can see router.get is just looking for "/" - signifying the site's main page: this is where we are handling everyone that is asking for the homepage (as opposed to "/some-other-specific-text-to-bring-us-to-a-different-page"). 
-21. Res.render handles views, and if you open the "views" folder, you can see there is one called index.ejs. So the "index" next to res.render is referring to the view index.ejs. This page will render this view. We're also handing in an object called title, with the value automatically "Express." That value can be changedd
+21. Res.render handles views, and if you open the "views" folder, you can see there is one called index.ejs. So the "index" next to res.render is referring to the view index.ejs. This page will render this view. We're also handing in an object called title, with the value automatically "Express." That value can of course be changed.
+22. Open the "views folder" and click on index.ejs. You can now see the code for the view our homepage is going to use as a template. You can see in the HTML
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ3MjY3OTIsMTM3ODEzODUyMSwtMT
-gyMDgxMjIxOCwxMjc3MzE3OTQ1LC0xNDMwMTYwMTkzLDI1NTU2
-NDAxNiwtMTYxOTI3MTAwNywtNTA4NTMwOTM0LC0xNzY4MTYzMT
-c4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgyNl19
+eyJoaXN0b3J5IjpbMTE2MjM3OTQ3NiwxMzc4MTM4NTIxLC0xOD
+IwODEyMjE4LDEyNzczMTc5NDUsLTE0MzAxNjAxOTMsMjU1NTY0
+MDE2LC0xNjE5MjcxMDA3LC01MDg1MzA5MzQsLTE3NjgxNjMxNz
+gsNTgyMjY1NjEwLDIyNTQ0NDY4NywxMzgzNTI4ODI2XX0=
 -->
