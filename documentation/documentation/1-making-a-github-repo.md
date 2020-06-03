@@ -33,13 +33,13 @@
 
 16. Next, still in terminal, type in "npm i" and hit enter. This will install all of the dependencies. **do we want to explain here what that means**
 
-17. Then, we'll type in "npm start" and hit enter. **I'm getting errors messages**
+17. Then, we'll type in "npm start" and hit enter. 
 
-18.
+18. Open your internet browser of choice (ex: Chrome) and type in "localhost:3000" and then hit enter. You should s
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzMxNzk0NSwtMTQzMDE2MDE5MywyNT
-U1NjQwMTYsLTE2MTkyNzEwMDcsLTUwODUzMDkzNCwtMTc2ODE2
-MzE3OCw1ODIyNjU2MTAsMjI1NDQ0Njg3LDEzODM1Mjg4MjZdfQ
-==
+eyJoaXN0b3J5IjpbLTEzNDE2NzMwNTUsMTI3NzMxNzk0NSwtMT
+QzMDE2MDE5MywyNTU1NjQwMTYsLTE2MTkyNzEwMDcsLTUwODUz
+MDkzNCwtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMjI1NDQ0Njg3LD
+EzODM1Mjg4MjZdfQ==
 -->
