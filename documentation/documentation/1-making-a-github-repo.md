@@ -19,16 +19,19 @@
 
 9. Open up your computer's terminal.
  
-10. In Terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is "cd Development(or whatever you have called your folder)".
+10. In Terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is "cd Development(or whatever you have called your folder)". Cd stands for change directories.
 
 11. First making sure you are now making changes in the development folder you tried to open, next type in "git clone INSERT-URL-YOU-COPIED" and hit enter.
 
 12. You can then type "ls" in the Terminal to list the items in the folder you are in. You should see cloned github folder listed.
 
+13. Next, open the folder by typing "cd watch-together" (which means change directories into the name of the new folder).
 
+14. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODUzMDkzNCwtMTc2ODE2MzE3OCw1OD
-IyNjU2MTAsMjI1NDQ0Njg3LDEzODM1Mjg4MjZdfQ==
+eyJoaXN0b3J5IjpbLTk5OTc2NzQyMywtNTA4NTMwOTM0LC0xNz
+Y4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgy
+Nl19
 -->
