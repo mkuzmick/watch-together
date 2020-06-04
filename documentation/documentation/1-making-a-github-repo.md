@@ -38,14 +38,14 @@
  **I'm wondering if this didn't work from me because in the step right before this most recent heading, i started the server but did not stop the server. so i'm thinking i need to add instructions to stop the sever before we add the nodemon?**
 31. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
 ### To commit this to Github:
-1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal
+1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .``
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzcxMDIyNjcsNDgzMDAyNzIsLTE2Mj
-A2Mzc1MzEsLTE3NDgwMTUxMDAsODIyOTkzODAxLC01NjcwMTE5
-OTEsNzU5NzI3NjU4LDg2ODE5NjUwNiwtMzQ1NzU4MzE2LDExNj
-IzNzk0NzYsMTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3
-OTQ1LC0xNDMwMTYwMTkzLDI1NTU2NDAxNiwtMTYxOTI3MTAwNy
-wtNTA4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0
-NDQ2ODddfQ==
+eyJoaXN0b3J5IjpbNTM4MTM5Mjg5LDQ4MzAwMjcyLC0xNjIwNj
+M3NTMxLC0xNzQ4MDE1MTAwLDgyMjk5MzgwMSwtNTY3MDExOTkx
+LDc1OTcyNzY1OCw4NjgxOTY1MDYsLTM0NTc1ODMxNiwxMTYyMz
+c5NDc2LDEzNzgxMzg1MjEsLTE4MjA4MTIyMTgsMTI3NzMxNzk0
+NSwtMTQzMDE2MDE5MywyNTU1NjQwMTYsLTE2MTkyNzEwMDcsLT
+UwODUzMDkzNCwtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMjI1NDQ0
+Njg3XX0=
 -->
