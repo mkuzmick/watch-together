@@ -8,13 +8,17 @@
 5. Click the "Add .gitignore: none" button to type in, and then select, "node".
 6. Click the "Add a license" button and select "MIT License". **marlon, during your screencast you said this doesn't really matter. do we want this step in here?**
 7. Click "Create repository".
-8. Now, click the green "Clone or download" button and copy the URL by clicking the clipboard icon next to the URL.
-9. Open up your computer's terminal.
-10. In terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is ``cd Development``(or replace "Development" with the name of your own your folder)". ``Cd`` stands for change directories. Hit enter.
-11. First making sure you are now making changes in the development folder you tried to open (you can tell which folder you are in by the text that comes up on the most recent line in terminal after hitting enter), next type in "``git clone INSERT-URL-YOU-COPIED``" and hit enter.
-12. You can then type ``ls`` in the terminal to list the items in the folder you are in. You should see cloned github folder listed.
 
-14. Next, open the folder by typing ``cd watch-together"`` (which means change directories into the name of the new folder).
+### To clone a repository: 
+***should we explain more info about why we want to clone? to work on our local computer?***
+9. Now, click the green "Clone or download" button and copy the URL by clicking the clipboard icon next to the URL.
+10. Open up your computer's terminal.
+11. In terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is ``cd Development``(or replace "Development" with the name of your own your folder)". ``Cd`` stands for change directories. Hit enter.
+12. First making sure you are now making changes in the development folder you tried to open (you can tell which folder you are in by the text that comes up on the most recent line in terminal after hitting enter), next type in "``git clone INSERT-URL-YOU-COPIED``" and hit enter.
+13. You can then type ``ls`` in the terminal to list the items in the folder you are in. You should see cloned github folder listed.
+
+### To create an express app:
+14. Next, still in terminal, open the folder by typing ``cd watch-together"`` (which means change directories into the name of the new folder).
 15. Confirming you are in the ``watch-together`` folder, you can then open this folder up in atom. You do this by typing ``atom .`` into your terminal and clicking enter. Atom will then open up with all of the components of the ``watch-together folder``. 
 16. In terminal, type in ``npx express generator --view=ejs .`` and then hit enter. Type in ``y``and hit enter if you are prompted with the question ``destination is not empty, continue? [y/N]``.
 17. Next, still in terminal, type in ``npm i`` and hit enter. This will install all of the dependencies. **do we want to explain here what that means**
@@ -35,7 +39,7 @@
 1.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI2NDk5OTcsNDgzMDAyNzIsLTE2Mj
+eyJoaXN0b3J5IjpbLTEyNzc5MTgzNDMsNDgzMDAyNzIsLTE2Mj
 A2Mzc1MzEsLTE3NDgwMTUxMDAsODIyOTkzODAxLC01NjcwMTE5
 OTEsNzU5NzI3NjU4LDg2ODE5NjUwNiwtMzQ1NzU4MzE2LDExNj
 IzNzk0NzYsMTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3
