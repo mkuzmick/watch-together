@@ -6,9 +6,9 @@
 brew tap heroku/brew && brew install heroku
 ``).
 2. Before pasting the code into terminal, make sure you are not in the watch-together folder, but just the computer's name and if applicable, your username. You may need to open a new terminal tab. Then, paste the above code into terminal and hit enter.
-3. Navigate back to your watch-together folder in terminal 
+3. Navigate back to your watch-together folder in terminal and type in ``heroku create``
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTYxOTI1Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTI4OTQzOTgsNzMwOTk4MTE2XX0=
 -->
