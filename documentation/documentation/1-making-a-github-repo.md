@@ -27,13 +27,14 @@
 24. To have that behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, type in ``npm i nodemon`` in terminal.
 25. Go back to Atom and open up the file ``package.json``. You can see ``"start": "node ./bin/www"`` which means that the nodemon has installed **is this true?**.
 26. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to start typing on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
-27. Go to terminal and type in ``npm run devstart``
+27. Go to terminal and type in ``npm run devstart``. Hit enter.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA2Mzc1MzEsLTE3NDgwMTUxMDAsOD
-IyOTkzODAxLC01NjcwMTE5OTEsNzU5NzI3NjU4LDg2ODE5NjUw
-NiwtMzQ1NzU4MzE2LDExNjIzNzk0NzYsMTM3ODEzODUyMSwtMT
-gyMDgxMjIxOCwxMjc3MzE3OTQ1LC0xNDMwMTYwMTkzLDI1NTU2
-NDAxNiwtMTYxOTI3MTAwNywtNTA4NTMwOTM0LC0xNzY4MTYzMT
-c4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgyNl19
+eyJoaXN0b3J5IjpbNDgzMDAyNzIsLTE2MjA2Mzc1MzEsLTE3ND
+gwMTUxMDAsODIyOTkzODAxLC01NjcwMTE5OTEsNzU5NzI3NjU4
+LDg2ODE5NjUwNiwtMzQ1NzU4MzE2LDExNjIzNzk0NzYsMTM3OD
+EzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3OTQ1LC0xNDMwMTYw
+MTkzLDI1NTU2NDAxNiwtMTYxOTI3MTAwNywtNTA4NTMwOTM0LC
+0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUy
+ODgyNl19
 -->
