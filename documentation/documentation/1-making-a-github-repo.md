@@ -38,12 +38,13 @@
  **I'm wondering if this didn't work from me because in the step right before this most recent heading, i started the server but did not stop the server. so i'm thinking i need to add instructions to stop the sever before we add the nodemon?**
 31. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
 ### To commit this to Github:
-1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .`` and hit enter.
-2. Next, type in ``git commit -m "message"`` which means commit with message. The string inside the hyphens is the place for you to type whatever message you wish to add to this commit. For example, ``git commit -m "first commit"``. Then hit enter.
-3. Then, type in 
+1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .`` and hit enter. **what exactly does add to?**
+2. Next, type in terminal  ``git commit -m "message"`` which means commit with message. The string inside the hyphens is the place for you to type whatever message you wish to add to this commit. For example, ``git commit -m "first commit"``. Then hit enter.
+3. Then, type in terminal ``git push origin master``. This should push the changes to the master.
+4. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNDI0Mzk2LDQ4MzAwMjcyLC0xNjIwNj
+eyJoaXN0b3J5IjpbNTQyNDQ3MDcxLDQ4MzAwMjcyLC0xNjIwNj
 M3NTMxLC0xNzQ4MDE1MTAwLDgyMjk5MzgwMSwtNTY3MDExOTkx
 LDc1OTcyNzY1OCw4NjgxOTY1MDYsLTM0NTc1ODMxNiwxMTYyMz
 c5NDc2LDEzNzgxMzg1MjEsLTE4MjA4MTIyMTgsMTI3NzMxNzk0
