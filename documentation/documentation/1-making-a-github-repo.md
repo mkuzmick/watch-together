@@ -26,13 +26,13 @@
 23. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C or ``^C`` ** are these two options right? Control+C looked weird in backticks because you don't literally type in the word control** to stop the server. Then, you can go back to your last command, ``npm start`` to restart the server. Hit enter. When you refresh your internet browser, it should update with your new text.
 24. To have that behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, type in ``npm i nodemon`` in terminal.
 25. Go back to Atom and open up the file ``package.json``. You can see ``"start": "node ./bin/www"`` which means that the nodemon has installed **is this true?**.
-26. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to start typing on the next line. Type ``"devstart": "nodemon ./bin/www"``
+26. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to start typing on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNDcyNjg5LDgyMjk5MzgwMSwtNTY3MD
-ExOTkxLDc1OTcyNzY1OCw4NjgxOTY1MDYsLTM0NTc1ODMxNiwx
-MTYyMzc5NDc2LDEzNzgxMzg1MjEsLTE4MjA4MTIyMTgsMTI3Nz
-MxNzk0NSwtMTQzMDE2MDE5MywyNTU1NjQwMTYsLTE2MTkyNzEw
-MDcsLTUwODUzMDkzNCwtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMj
-I1NDQ0Njg3LDEzODM1Mjg4MjZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDgwMTUxMDAsODIyOTkzODAxLC01Nj
+cwMTE5OTEsNzU5NzI3NjU4LDg2ODE5NjUwNiwtMzQ1NzU4MzE2
+LDExNjIzNzk0NzYsMTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMj
+c3MzE3OTQ1LC0xNDMwMTYwMTkzLDI1NTU2NDAxNiwtMTYxOTI3
+MTAwNywtNTA4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMC
+wyMjU0NDQ2ODcsMTM4MzUyODgyNl19
 -->
