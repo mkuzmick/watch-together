@@ -1,9 +1,9 @@
 
 # Making a Github Repo
 
-1. Go to your github profile (``https://github.com/YOUR-USERNAME``) in your internet browser, and click on "``Repositories". Then click on the green button that says "New" to create a new repository. 
-2. Write a name for your repository that is simple and clear. Do not use spaces, instead use "-". For example, "watch-together".
-3. Write a description for your repository. This step is optional. In this case, we will write, "An express app that will connect airtable, slack, and some film database API."
+1. Go to your github profile (``https://github.com/YOUR-USERNAME``) in your internet browser, and click on ``Repositories``. Then click on the green button that says ``New`` to create a new repository. 
+2. Write a name for your repository that is simple and clear. Use ``-`` instead of spaces. For example, ``watch-together``.
+3. Write a description for your repository. This step is optional. In this case, we will write, ``An express app that will connect airtable, slack, and some film database API.``
 4. Check the box to initialize this repository with a README. **what does this mean, do we want an explanation here?**
 5. Click the "Add .gitignore: none" button to type in, and then select, "node".
 6. Click the "Add a license" button and select "MIT License". **marlon, during your screencast you said this doesn't really matter. do we want this step in here?**
@@ -27,10 +27,10 @@
 24. To have that behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, type in "npm i nodemon" in terminal
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NzM3MDQ0LC01NjcwMTE5OTEsNzU5Nz
-I3NjU4LDg2ODE5NjUwNiwtMzQ1NzU4MzE2LDExNjIzNzk0NzYs
-MTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3OTQ1LC0xND
-MwMTYwMTkzLDI1NTU2NDAxNiwtMTYxOTI3MTAwNywtNTA4NTMw
-OTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMT
-M4MzUyODgyNl19
+eyJoaXN0b3J5IjpbLTg5NDk4OTE3OCwtNTY3MDExOTkxLDc1OT
+cyNzY1OCw4NjgxOTY1MDYsLTM0NTc1ODMxNiwxMTYyMzc5NDc2
+LDEzNzgxMzg1MjEsLTE4MjA4MTIyMTgsMTI3NzMxNzk0NSwtMT
+QzMDE2MDE5MywyNTU1NjQwMTYsLTE2MTkyNzEwMDcsLTUwODUz
+MDkzNCwtMTc2ODE2MzE3OCw1ODIyNjU2MTAsMjI1NDQ0Njg3LD
+EzODM1Mjg4MjZdfQ==
 -->
