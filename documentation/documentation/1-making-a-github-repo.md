@@ -22,13 +22,13 @@
 19. Next, navigate into Atom. Open the "routes" folder and click on index.js. 
 20. You can see router.get is just looking for "/" - signifying the site's main page: this is where we are handling everyone that is asking for the homepage (as opposed to "/some-other-specific-text-to-bring-us-to-a-different-page"). 
 21. Res.render handles views, and if you open the "views" folder, you can see there is one called index.ejs. So the "index" next to res.render is referring to the view index.ejs. This page will render this view. We're also handing in an object called title, with the value automatically "Express." That value can of course be changed.
-22. Open the "views folder" and click on index.ejs. You can now see the code for the view our homepage is going to use as a template. You can see in the HTML that the object title is written twice. When this view is used in index.js, the value that title is given in index.js will fill in. As a test, go back to index.js and change the value of title from "Express" to something else, such as "Watch Together".
+22. Open the "views folder" and click on index.ejs. You can now see the code for the view our homepage is going to use as a template. You can see in the HTML that the object title is written three times. When this view is used in index.js, the value that title is given in index.js will fill in to those three tags - <title> is the title of the page and displays as the text in the tab As a test, go back to index.js and change the value of title from "Express" to something else, such as "Watch Together".
 23. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C to stop the server. Then, you can go back to your last command, "npm start" to restart the server. Hit enter.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4MTk2NTA2LC0zNDU3NTgzMTYsMTE2Mj
-M3OTQ3NiwxMzc4MTM4NTIxLC0xODIwODEyMjE4LDEyNzczMTc5
-NDUsLTE0MzAxNjAxOTMsMjU1NTY0MDE2LC0xNjE5MjcxMDA3LC
-01MDg1MzA5MzQsLTE3NjgxNjMxNzgsNTgyMjY1NjEwLDIyNTQ0
-NDY4NywxMzgzNTI4ODI2XX0=
+eyJoaXN0b3J5IjpbMjU2MzY4OTExLDg2ODE5NjUwNiwtMzQ1Nz
+U4MzE2LDExNjIzNzk0NzYsMTM3ODEzODUyMSwtMTgyMDgxMjIx
+OCwxMjc3MzE3OTQ1LC0xNDMwMTYwMTkzLDI1NTU2NDAxNiwtMT
+YxOTI3MTAwNywtNTA4NTMwOTM0LC0xNzY4MTYzMTc4LDU4MjI2
+NTYxMCwyMjU0NDQ2ODcsMTM4MzUyODgyNl19
 -->
