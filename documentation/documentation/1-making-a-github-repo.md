@@ -32,15 +32,16 @@
 25. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C or ``^C`` ** are these two options right? Control+C looked weird in backticks because you don't literally type in the word control** to stop the server. Then, you can go back to your last command, ``npm start`` to restart the server. Hit enter. When you refresh your internet browser, it should update with your new text.
 ### To have this behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, you add a nodemon script:
 26. type in ``npm i nodemon`` in terminal.
-2. Go back to Atom and open up the file ``package.json``. You can see ``"start": "node ./bin/www"`` which means that the nodemon has installed **is this true?**.
-3. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to add a new script on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
-4. Go to terminal and type in ``npm run devstart``. Hit enter. **I'm wondering if this didn't work from me because in the step right before this most recent heading, i started the server but did not stop the server. so i'm thinking i need to add instructions to stop the sever before we add the nodemon?**
-5. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
+27. Go back to Atom and open up the file ``package.json``. You can see ``"start": "node ./bin/www"`` which means that the nodemon has installed **is this true?**.
+28. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to add a new script on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
+29. Go to terminal and type in ``npm run devstart``. Hit enter. 
+ **I'm wondering if this didn't work from me because in the step right before this most recent heading, i started the server but did not stop the server. so i'm thinking i need to add instructions to stop the sever before we add the nodemon?**
+31. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
 ### To commit this to Github:
-1.
+1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAwMDQ3MTksNDgzMDAyNzIsLTE2Mj
+eyJoaXN0b3J5IjpbLTE1MzcxMDIyNjcsNDgzMDAyNzIsLTE2Mj
 A2Mzc1MzEsLTE3NDgwMTUxMDAsODIyOTkzODAxLC01NjcwMTE5
 OTEsNzU5NzI3NjU4LDg2ODE5NjUwNiwtMzQ1NzU4MzE2LDExNj
 IzNzk0NzYsMTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3
