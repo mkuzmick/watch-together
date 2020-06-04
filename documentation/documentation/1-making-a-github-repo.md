@@ -24,17 +24,19 @@
 21. ``Res.render`` handles views, and if you open the ``views`` folder, you can see there is one called ``index.ejs``. So the ``index`` next to ``res.render`` is referring to the view ``index.ejs``. This page will render this view. We're also handing in an object called ``title``, with the value automatically ``Express``. That value is not a fixed object, so it can be made whatever we want.
 22. Open the ``views`` folder and click on ``index.ejs``. You can now see the code for the view our homepage is going to use as a template. You can see in the HTML that the object ``title`` is written three times. When this view is used in ``index.js``, the value that ``title`` is given in ``index.js`` will fill in to those three tags (signified by ``<`` and ``>``). ``<title>`` is the title of the page and displays as the text in an internet tab, and ``<h1>`` and ``<p>`` are in the ``<body>``, making up the heading text and the paragraph text in the body of the page. As a test, go back to ``index.js`` and change the value of ``title ``from ``Express`` to something else, such as ``Watch Together``. Note that anytime you make a change in atom, you need to save. Pressing ``command+s`` will work. If you are making changes in multiple files in Atom, you need to save while in each file (save will only apply to the file you are in when you press it).
 23. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C or ``^C`` ** are these two options right? Control+C looked weird in backticks because you don't literally type in the word control** to stop the server. Then, you can go back to your last command, ``npm start`` to restart the server. Hit enter. When you refresh your internet browser, it should update with your new text.
-24. To have that behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, type in ``npm i nodemon`` in terminal.
-25. Go back to Atom and open up the file ``package.json``. You can see ``"start": "node ./bin/www"`` which means that the nodemon has installed **is this true?**.
-26. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to start typing on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
-27. Go to terminal and type in ``npm run devstart``. Hit enter.
+### To have this behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time:
+1. type in ``npm i nodemon`` in terminal.
+2. Go back to Atom and open up the file ``package.json``. You can see ``"start": "node ./bin/www"`` which means that the nodemon has installed **is this true?**.
+3. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to start typing on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
+4. Go to terminal and type in ``npm run devstart``. Hit enter.
+5. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzMDAyNzIsLTE2MjA2Mzc1MzEsLTE3ND
-gwMTUxMDAsODIyOTkzODAxLC01NjcwMTE5OTEsNzU5NzI3NjU4
-LDg2ODE5NjUwNiwtMzQ1NzU4MzE2LDExNjIzNzk0NzYsMTM3OD
-EzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3OTQ1LC0xNDMwMTYw
-MTkzLDI1NTU2NDAxNiwtMTYxOTI3MTAwNywtNTA4NTMwOTM0LC
-0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMTM4MzUy
-ODgyNl19
+eyJoaXN0b3J5IjpbLTkxNDA1NjAyMSw0ODMwMDI3MiwtMTYyMD
+YzNzUzMSwtMTc0ODAxNTEwMCw4MjI5OTM4MDEsLTU2NzAxMTk5
+MSw3NTk3Mjc2NTgsODY4MTk2NTA2LC0zNDU3NTgzMTYsMTE2Mj
+M3OTQ3NiwxMzc4MTM4NTIxLC0xODIwODEyMjE4LDEyNzczMTc5
+NDUsLTE0MzAxNjAxOTMsMjU1NTY0MDE2LC0xNjE5MjcxMDA3LC
+01MDg1MzA5MzQsLTE3NjgxNjMxNzgsNTgyMjY1NjEwLDIyNTQ0
+NDY4N119
 -->
