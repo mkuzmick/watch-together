@@ -16,21 +16,21 @@
 13. Next, open the folder by typing ``cd watch-together"`` (which means change directories into the name of the new folder).
 14. Confirming you are in the ``watch-together`` folder, you can then open this folder up in atom. You do this by typing ``atom .`` into your terminal and clicking enter. Atom will then open up with all of the components of the ``watch-together folder``. 
 15. In terminal, type in ``npx express generator --view=ejs .`` and then hit enter. Type in ``y``and hit enter if you are prompted with the question ``destination is not empty, continue? [y/N]``.
-16. Next, still in terminal, type in "npm i" and hit enter. This will install all of the dependencies. **do we want to explain here what that means**
-17. Then, we'll type in "npm start" and hit enter. 
-18. Open your internet browser of choice (ex: Chrome) and type in "localhost:3000" and then hit enter. You should see **I'm not sure what to call this page, the home page, the express app?**
-19. Next, navigate into Atom. Open the "routes" folder and click on index.js. 
-20. You can see router.get is just looking for ``/`` - signifying the site's main page: this is where we are handling everyone that is asking for the homepage (as opposed to ``/some-other-specific-text-to-bring-us-to-a-different-page``). 
-21. ``Res.render`` handles views, and if you open the "views" folder, you can see there is one called index.ejs. So the ``index`` next to ``res.render`` is referring to the view index.ejs. This page will render this view. We're also handing in an object called ``title``, with the value automatically ``Express``. That value is not a fixed object, so it can be made whatever we want.
+16. Next, still in terminal, type in ``npm i`` and hit enter. This will install all of the dependencies. **do we want to explain here what that means**
+17. Then, we'll type in ``npm start`` and hit enter. 
+18. Open your internet browser of choice (ex: Chrome) and type the URL ``localhost:3000`` and then hit enter to navigate to this page. You should see **I'm not sure what to call this page, the home page, the express app?**
+19. Next, navigate into Atom. Open the ``routes`` folder and click on ``index.js``. 
+20. You can see ``router.get`` is just looking for ``/`` - signifying the site's main page: this is where we are handling everyone that is asking for the homepage (as opposed to ``/some-other-specific-text-to-bring-us-to-a-different-page``). 
+21. ``Res.render`` handles views, and if you open the ``views`` folder, you can see there is one called ``index.ejs``. So the ``index`` next to ``res.render`` is referring to the view ``index.ejs``. This page will render this view. We're also handing in an object called ``title``, with the value automatically ``Express``. That value is not a fixed object, so it can be made whatever we want.
 22. Open the "views folder" and click on index.ejs. You can now see the code for the view our homepage is going to use as a template. You can see in the HTML that the object ``title`` is written three times. When this view is used in index.js, the value that title is given in index.js will fill in to those three tags - ``<title>`` is the title of the page and displays as the text in an internet tab, ``<h1>`` and ``<p>`` are in the ``<body>``, making up the heading and the paragraph in the body text of the page. As a test, go back to index.js and change the value of ``title ``from ``Express`` to something else, such as ``Watch Together``.
 23. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C to stop the server. Then, you can go back to your last command, "npm start" to restart the server. Hit enter. When you refresh your internet browser, it should update with your new text.
 24. To have that behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, type in "npm i nodemon" in terminal
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg2Mjg5NzIsLTU2NzAxMTk5MSw3NT
-k3Mjc2NTgsODY4MTk2NTA2LC0zNDU3NTgzMTYsMTE2MjM3OTQ3
-NiwxMzc4MTM4NTIxLC0xODIwODEyMjE4LDEyNzczMTc5NDUsLT
-E0MzAxNjAxOTMsMjU1NTY0MDE2LC0xNjE5MjcxMDA3LC01MDg1
-MzA5MzQsLTE3NjgxNjMxNzgsNTgyMjY1NjEwLDIyNTQ0NDY4Ny
-wxMzgzNTI4ODI2XX0=
+eyJoaXN0b3J5IjpbMzAzNzQzNjI3LC01NjcwMTE5OTEsNzU5Nz
+I3NjU4LDg2ODE5NjUwNiwtMzQ1NzU4MzE2LDExNjIzNzk0NzYs
+MTM3ODEzODUyMSwtMTgyMDgxMjIxOCwxMjc3MzE3OTQ1LC0xND
+MwMTYwMTkzLDI1NTU2NDAxNiwtMTYxOTI3MTAwNywtNTA4NTMw
+OTM0LC0xNzY4MTYzMTc4LDU4MjI2NTYxMCwyMjU0NDQ2ODcsMT
+M4MzUyODgyNl19
 -->
