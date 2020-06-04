@@ -39,10 +39,11 @@
 31. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
 ### To commit this to Github:
 1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .`` and hit enter.
-2. Then type in ``git commit -m "message"`` which means commit with message. You can type string inside the hyphens 
+2. Next, type in ``git commit -m "message"`` which means commit with message. The string inside the hyphens is the place for you to type whatever message you wish to add to this commit. For example, ``git commit -m "first commit"``. Then hit enter.
+3. Then, type in 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NDg0NzM0LDQ4MzAwMjcyLC0xNjIwNj
+eyJoaXN0b3J5IjpbMjIwNDI0Mzk2LDQ4MzAwMjcyLC0xNjIwNj
 M3NTMxLC0xNzQ4MDE1MTAwLDgyMjk5MzgwMSwtNTY3MDExOTkx
 LDc1OTcyNzY1OCw4NjgxOTY1MDYsLTM0NTc1ODMxNiwxMTYyMz
 c5NDc2LDEzNzgxMzg1MjEsLTE4MjA4MTIyMTgsMTI3NzMxNzk0
