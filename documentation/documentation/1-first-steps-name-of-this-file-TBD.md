@@ -1,7 +1,7 @@
 
 # First Steps
 
-1. Go to your github profile (`https://github.com/YOUR-USERNAME`) in your internet browser, and click on "Repositories". Then click on the green button that says "New" to create a new repository. 
+1. Go to your github profile (``https://github.com/YOUR-USERNAME``) in your internet browser, and click on "Repositories". Then click on the green button that says "New" to create a new repository. 
 2. Write a name for your repository that is simple and clear. Use `-` instead of spaces. For example, "watch-together".
 3. Write a description for your repository. This step is optional. In this case, we will write, "An express app that will connect airtable, slack, and some film database API."
 4. Check the box to Initialize this repository with a README. (Click [here](https://www.makeareadme.com/) for more information on what a README file is.)
@@ -44,5 +44,5 @@
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTcwMzg0NCwtMTc3NDE2NzMxMV19
+eyJoaXN0b3J5IjpbLTgyMTc1NjA0OCwtMTc3NDE2NzMxMV19
 -->
