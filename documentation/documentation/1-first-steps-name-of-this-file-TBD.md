@@ -22,9 +22,10 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 14. Next, still in terminal, open the folder by typing ``cd watch-together"`` (which means change directories into the name of the new folder).
 15. Confirming you are in the ``watch-together`` folder, you can then open this folder up in atom. You do this by typing ``atom .`` into your terminal and clicking enter. Atom will then open up with all of the components of the ``watch-together folder``. 
 16. In terminal, type in ``npx express generator --view=ejs .`` and then hit enter. Type in ``y``and hit enter if you are prompted with the question ``destination is not empty, continue? [y/N]``.
-17. Next, still in terminal, type in ``npm i`` and hit enter. This will install all of the dependencies. **do we want to explain here what that means**
-18. Then, we'll type in ``npm start`` and hit enter. 
-19. Open your internet browser of choice (ex: Chrome) and type the URL ``localhost:3000`` and then hit enter to navigate to this page. You should see **I'm not sure what to call this page, the home page, the express app?**
+17. Look in atom. There should be a new file, `package.json`. This file contains information about the application you're building, including the name, the license, and also any 
+18. Next, still in terminal, type in ``npm i`` and hit enter. This will install all of the dependencies. **do we want to explain here what that means**
+19. Then, we'll type in ``npm start`` and hit enter. 
+20. Open your internet browser of choice (ex: Chrome) and type the URL ``localhost:3000`` and then hit enter to navigate to this page. You should see **I'm not sure what to call this page, the home page, the express app?**
 ### To change the site:
 21. Next, navigate into Atom. Open the ``routes`` folder and click on ``index.js``. 
 22. You can see ``router.get`` is just looking for ``/`` - signifying the site's main page: this is where we are handling everyone that is asking for the homepage (as opposed to ``/some-other-specific-text-to-bring-us-to-a-different-page``). 
@@ -45,5 +46,5 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODcyMTUzLC0xNzc0MTY3MzExXX0=
+eyJoaXN0b3J5IjpbLTU2MzQxNzgwOCwtMTc3NDE2NzMxMV19
 -->
