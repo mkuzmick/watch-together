@@ -34,9 +34,9 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 25. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C to stop the server. Then, you can go back to your last command, ``npm start`` to restart the server. Hit enter. When you refresh your internet browser, it should update with your new text.
 ### To have this behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, you add a nodemon script:
 26. Type in ``npm i nodemon`` in terminal and hit enter.
-27. Go back to Atom and open up the file ``package.json``.  Right now, your server is starting with the n ``"start": "node ./bin/www"`` 
-28. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to add a new script on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
-29. Go to terminal and type in ``npm run devstart``. Hit enter. 
+27. Go back to Atom and open up the file ``package.json``.  Right now, your server is starting with the npm start script in the scripts section:  ``"start": "node ./bin/www"`` .
+28. To create a new script that will start the sever with nodemon, add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to add a new script on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
+29. If your server is still running from the earlier step, type Control+C Go to terminal and type in ``npm run devstart``. Hit enter. 
  **I'm wondering if this didn't work from me because in the step right before this most recent heading, i started the server but did not stop the server. so i'm thinking i need to add instructions to stop the sever before we add the nodemon?**
 31. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
 ### To commit this to Github:
@@ -46,6 +46,6 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAzNDI5OTUsLTE0OTE1Mjg3NjUsLT
-E3NzQxNjczMTFdfQ==
+eyJoaXN0b3J5IjpbMTk0MzQxMDc5MiwtMTQ5MTUyODc2NSwtMT
+c3NDE2NzMxMV19
 -->
