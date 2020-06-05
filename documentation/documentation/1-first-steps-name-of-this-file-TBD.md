@@ -36,16 +36,15 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 26. Type in ``npm i nodemon`` in terminal and hit enter.
 27. Go back to Atom and open up the file ``package.json``.  Right now, your server is starting with the npm start script in the scripts section:  ``"start": "node ./bin/www"`` .
 28. To create a new script that will start the sever with nodemon, add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to add a new script on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
-29. If your server is still running from the earlier step, type Control+C Go to terminal and type in ``npm run devstart``. Hit enter. 
- **I'm wondering if this didn't work from me because in the step right before this most recent heading, i started the server but did not stop the server. so i'm thinking i need to add instructions to stop the sever before we add the nodemon?**
+29. If your server is still running from the earlier step, type Control+C to stop the server. You need to do this before restarting the server with nodemon. Go to terminal and type in ``npm run devstart``. Hit enter. 
 31. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
 ### To commit this to Github:
-1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .`` and hit enter. **what exactly does add to?**
+1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .`` and hit enter. **link to a git tutorial here**
 2. Next, type in terminal  ``git commit -m "message"`` which means commit with message. The string inside the hyphens is the place for you to type whatever message you wish to add to this commit. For example, ``git commit -m "first commit"``. Then hit enter.
 3. Then, type in terminal ``git push origin master``. This should push the changes to the master.
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzQxMDc5MiwtMTQ5MTUyODc2NSwtMT
-c3NDE2NzMxMV19
+eyJoaXN0b3J5IjpbNjQ4NDk3NjAwLC0xNDkxNTI4NzY1LC0xNz
+c0MTY3MzExXX0=
 -->
