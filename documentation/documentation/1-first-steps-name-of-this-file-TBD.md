@@ -14,7 +14,7 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 
 9. Now, click the green "Clone or download" button and copy the URL by clicking the clipboard icon next to the URL.
 10. Open up your computer's terminal.
-11. In terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is ``cd Development``(or replace "Development" with the name of your own your folder)". ``Cd`` stands for change directories. Hit enter.
+11. In terminal, open up the folder you want to work in [in the Learning Lab, we typically create a folder called `Development` at the root of your user folder].  The terminal command for this is `cd Development`(or replace "Development" with the name of your own your folder)". `Cd` stands for change directories. Hit enter.
 12. First making sure you are now making changes in the development folder you tried to open (you can tell which folder you are in by the text that comes up on the most recent line in terminal after hitting enter), next type in "``git clone INSERT-URL-YOU-COPIED``" and hit enter.
 13. You can then type ``ls`` in the terminal to list the items in the folder you are in. You should see cloned github folder listed.
 
@@ -45,5 +45,5 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDc1NzkzMCwtMTc3NDE2NzMxMV19
+eyJoaXN0b3J5IjpbMTk4ODcyMTUzLC0xNzc0MTY3MzExXX0=
 -->
