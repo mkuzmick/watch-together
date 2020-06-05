@@ -10,7 +10,8 @@
 7. Click "Create repository".
 
 ### To clone a repository: 
-***should we explain more info about why we want to clone? to work on our local computer?***
+Your code is going to live on github, but to actually manipulate yourself, on your own computer - that's called cloning. [Then once we've made some changes, we'll push them back up to github later on in this tutorial].
+
 9. Now, click the green "Clone or download" button and copy the URL by clicking the clipboard icon next to the URL.
 10. Open up your computer's terminal.
 11. In terminal, open up the folder you *do your development in* **(how to phrase this?)**. The terminal command for this is ``cd Development``(or replace "Development" with the name of your own your folder)". ``Cd`` stands for change directories. Hit enter.
@@ -44,5 +45,5 @@
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Nzg4NTk4NSwtMTc3NDE2NzMxMV19
+eyJoaXN0b3J5IjpbMjEyNDc1NzkzMCwtMTc3NDE2NzMxMV19
 -->
