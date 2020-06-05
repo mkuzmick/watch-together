@@ -2,10 +2,10 @@
 # First Steps
 
 1. Go to your github profile (`https://github.com/YOUR-USERNAME`) in your internet browser, and click on "Repositories". Then click on the green button that says "New" to create a new repository. 
-2. Write a name for your repository that is simple and clear. Use `-` instead of spaces. For example, `watch-together`.
+2. Write a name for your repository that is simple and clear. Use `-` instead of spaces. For example, "watch-together".
 3. Write a description for your repository. This step is optional. In this case, we will write, "An express app that will connect airtable, slack, and some film database API."
-4. Check the box to Initialize this repository with a README. Click [here](https://www.makeareadme.com/) for more information.
-5. Click the "Add .gitignore: none" button to type in, and then select, "node".
+4. Check the box to Initialize this repository with a README. (Click [here](https://www.makeareadme.com/) for more information on what a README file is.)
+5. Click the "Add .gitignore" button to type in, and then select, "node".
 6. Click the "Add a license" button and select "MIT License". **marlon, during your screencast you said this doesn't really matter. do we want this step in here?**
 7. Click "Create repository".
 
@@ -44,6 +44,5 @@
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU5Mzg5ODUsLTE3NzQxNjczMTFdfQ
-==
+eyJoaXN0b3J5IjpbMTIxNTcwMzg0NCwtMTc3NDE2NzMxMV19
 -->
