@@ -2,7 +2,7 @@
 # Getting Started with Heroku
 **should we say what heroku is?**
 
-1. First
+1. First, sign up for a username on [https://www.heroku.com/](https://www.heroku.com/).
 
 
 1. First, type ``heroku install homebrew`` into Google and click on the first link, which should be [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli). Copy the code on the webpage (``
@@ -13,6 +13,6 @@ brew tap heroku/brew && brew install heroku
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNjY5MTUxLC0yMDkyODk0Mzk4LDczMD
+eyJoaXN0b3J5IjpbNTAwMTI1ODc3LC0yMDkyODk0Mzk4LDczMD
 k5ODExNl19
 -->
