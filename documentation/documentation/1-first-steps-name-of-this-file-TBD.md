@@ -25,7 +25,7 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 17. Look in atom. There should be a new file, `package.json`. This file contains information about the application you're building, including the name, the license, and also any other code that it depends on - ie. its "dependencies", which are packages of code that other people have written that we will import into our project. 
 18. Right now, these dependencies are just located in the `package.json file` as a list of things you need. To actually install these dependencies, go back to terminal and type in `npm i` or `npm install` and hit enter. 
 19. Then, we'll type in ``npm start`` and hit enter. 
-20. Open your internet browser of choice (ex: Chrome) and type the URL ``localhost:3000`` and then hit enter to navigate to this page. You should see **I'm not sure what to call this page, the home page, the express app?**
+20. Open your internet browser of choice (ex: Chrome) and type the URL `localhost:3000` and then hit enter to navigate to this page. You should see the homepage of your express app. 
 ### To change the site:
 21. Next, navigate into Atom. Open the ``routes`` folder and click on ``index.js``. 
 22. You can see ``router.get`` is just looking for ``/`` - signifying the site's main page: this is where we are handling everyone that is asking for the homepage (as opposed to ``/some-other-specific-text-to-bring-us-to-a-different-page``). 
@@ -46,6 +46,6 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE1Mjg3NjUsLTE3NzQxNjczMTFdfQ
-==
+eyJoaXN0b3J5IjpbODg2MjUyMzEyLC0xNDkxNTI4NzY1LC0xNz
+c0MTY3MzExXX0=
 -->
