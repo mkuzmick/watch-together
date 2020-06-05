@@ -33,8 +33,8 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 24. Open the ``views`` folder and click on ``index.ejs``. You can now see the code for the view our homepage is going to use as a template. You can see in the HTML that the object ``title`` is written three times. When this view is used in ``index.js``, the value that ``title`` is given in ``index.js`` will fill in to those three tags (signified by ``<`` and ``>``). ``<title>`` is the title of the page and displays as the text in an internet tab, and ``<h1>`` and ``<p>`` are in the ``<body>``, making up the heading text and the paragraph text in the body of the page. As a test, go back to ``index.js`` and change the value of ``title ``from ``Express`` to something else, such as ``Watch Together``. Note that anytime you make a change in atom, you need to save. Pressing ``command+s`` will work. If you are making changes in multiple files in Atom, you need to save while in each file (save will only apply to the file you are in when you press it).
 25. Reloading your internet browser will not update the page, yet. You first need to go back to terminal and type in Control+C to stop the server. Then, you can go back to your last command, ``npm start`` to restart the server. Hit enter. When you refresh your internet browser, it should update with your new text.
 ### To have this behavior happen automatically when you make a change and save it, so you don't have to start and stop the server every time, you add a nodemon script:
-26. type in ``npm i nodemon`` in terminal.
-27. Go back to Atom and open up the file ``package.json``. You'll see nodemon in the list of dependencies. ``"start": "node ./bin/www"`` which means that the nodemon has installed **is this true?**.
+26. Type in ``npm i nodemon`` in terminal and hit enter.
+27. Go back to Atom and open up the file ``package.json``.  Right now, your server is starting with the n ``"start": "node ./bin/www"`` 
 28. Add a ``,`` after ``"start": "node ./bin/www"`` and hit enter to add a new script on the next line. Type ``"devstart": "nodemon ./bin/www"`` and then save.
 29. Go to terminal and type in ``npm run devstart``. Hit enter. 
  **I'm wondering if this didn't work from me because in the step right before this most recent heading, i started the server but did not stop the server. so i'm thinking i need to add instructions to stop the sever before we add the nodemon?**
@@ -46,6 +46,6 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDU1ODU3NSwtMTQ5MTUyODc2NSwtMT
-c3NDE2NzMxMV19
+eyJoaXN0b3J5IjpbLTE4OTAzNDI5OTUsLTE0OTE1Mjg3NjUsLT
+E3NzQxNjczMTFdfQ==
 -->
