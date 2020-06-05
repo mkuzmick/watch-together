@@ -39,12 +39,12 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 29. If your server is still running from the earlier step, type Control+C to stop the server. You need to do this before restarting the server with nodemon. Go to terminal and type in ``npm run devstart``. Hit enter. 
 31. You can test this to see if it worked by changing the ``title`` in ``index.js`` or adding new paragraph text inside the ``<p>`` brackets in ``index.ejs``.
 ### To commit this to Github:
-1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .`` and hit enter. **link to a git tutorial here**
+1. You will want to commit your changes up to Github in in certain increments when you are making sizable changes. Go to terminal and first make sure you located in the folder you want to push the changes from (You may need to open a new tab in terminal by pressing command+T) and the type in ``git add .``  to "stage" the changes you've made. Hit enter. To learn more about the git vocabulary including staging, pushing, click [here](https://git-scm.com/docs/gitglossary).
 2. Next, type in terminal  ``git commit -m "message"`` which means commit with message. The string inside the hyphens is the place for you to type whatever message you wish to add to this commit. For example, ``git commit -m "first commit"``. Then hit enter.
 3. Then, type in terminal ``git push origin master``. This should push the changes to the master.
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4NDk3NjAwLC0xNDkxNTI4NzY1LC0xNz
-c0MTY3MzExXX0=
+eyJoaXN0b3J5IjpbMTg2MTY3NDI1OCw2NDg0OTc2MDAsLTE0OT
+E1Mjg3NjUsLTE3NzQxNjczMTFdfQ==
 -->
