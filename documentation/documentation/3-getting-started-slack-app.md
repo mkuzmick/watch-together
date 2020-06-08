@@ -24,12 +24,14 @@
 4. Click the bottom button that says "Add New Webhook to Workspace".
 5. Next, you will be asked in which channel should your app post to. You can select the `#app-tests` channel.
 6. Now, copy the code underneath the header that reads "Sample curl request to post to a channel." 
-7. Navigate to terminal. Open a new window (command+N)
+7. Navigate to terminal. Open a new window (command+N) and paste the code here. Hit enter.
+8. Open the `#app-tests` channel in the Learning Lab Development slack. You should see that a "Hello, World!" message from your app!
+9
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkyODcwMjUsLTE2MDc5Mzc5NzIsLT
-EzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbMTc5ODY4NjE1LC0xNjA3OTM3OTcyLC0xMz
+U2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
 -->
