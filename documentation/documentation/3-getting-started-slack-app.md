@@ -12,18 +12,20 @@
 
 ### Now we haven a way of getting some arbitrary input into this app. It's not the most elegant way, but at least one word from the decision maker is going into this app, and then we can do something with that word. So what we want to do next is learn how to send that word to a slack channel.
 
-1 Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
+1. Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
 2. In the top right hand corner of the page, click on "Your Apps".
 3. Click the green "Create an App" button. For name, type `watch-together-dd` (use your own initials!). Make sure you are signed in and creating it in the Learning Lab Development Team workspace (learninglab-dev.slack.com). Then click "Create App".
 
 ### The first thing we will do is the simplest: Incoming Webhooks.
 
-1. Still in 
+1. Still in your internet browser where you app was just created, click "Incoming Webhooks" in the left menu.
+2. Click where it says "Off" in gray to make it says "On" in green.
+3. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDU0MDc2MDIsLTE2MDc5Mzc5NzIsLT
-EzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbLTEwNDYxNjMyNSwtMTYwNzkzNzk3MiwtMT
+M1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
