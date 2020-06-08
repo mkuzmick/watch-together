@@ -12,11 +12,11 @@ brew tap heroku/brew && brew install heroku
 6. Next, google `heroku proc file node`. Click on the first link and then navigate to [Define a Procfile](https://devcenter.heroku.com/articles/getting-started-with-nodejs#define-a-procfile). Copy the code (`
 web: node index.js
 `).
-7. Navigate back to Atom and make a new file (by right clicking the main watch-together folder) called `Procfile`. Paste the line of copied code in ti
+7. Navigate back to Atom and make a new file (by right clicking the main watch-together folder) called `Procfile`. Paste the line of copied code in this file and save.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTAxMDkxNiwxOTU3MzEzNTI0LDk2ND
-k1MzY5OSwtMTcyMTYxNDgyNCwtMTI3NDg4NTU3NiwtMTg4MTUx
-MTQ4MiwxOTAxMjA4NjE4LDUwMDEyNTg3NywtMjA5Mjg5NDM5OC
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDU1NTkwODY5LDE5NTczMTM1MjQsOTY0OT
+UzNjk5LC0xNzIxNjE0ODI0LC0xMjc0ODg1NTc2LC0xODgxNTEx
+NDgyLDE5MDEyMDg2MTgsNTAwMTI1ODc3LC0yMDkyODk0Mzk4LD
+czMDk5ODExNl19
 -->
