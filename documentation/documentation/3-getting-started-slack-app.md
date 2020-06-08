@@ -1,11 +1,11 @@
 # Getting started with a Slack App
 1. Navigate back to Atom. In watch-together, make a new file in the `routes` folder by duplicating `index.js`. You can call the new file `slack.js`.
 2. In the code of the file, change `index` to `slack` and change the value of `title` from `Watch Together` to `Slack Tests Go Here`.
-3. In order for someone to actually be able to get to this page, open the file `app.js`. We need to require a new route in
+3. In order for someone to actually be able to get to this page, open the file `app.js`. We need to require a new route in, and then we need to tell the app when we should use that file, which routes that file should handle. So we're going to do something that is exactly parallel to what they do with users, so copy the line of code
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjU4MDM2MiwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbLTE5OTkwNTMwLDE3NjAyMzcxNzFdfQ==
 -->
