@@ -20,12 +20,12 @@
 
 1. Still in your internet browser where you app was just created, click "Incoming Webhooks" in the left menu.
 2. Click where it says "Off" in gray to make it says "On" in green.
-3. 
+3. Scroll down and copy the code `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE`. ***Marlon you highlighted this but it do
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYxNjMyNSwtMTYwNzkzNzk3MiwtMT
+eyJoaXN0b3J5IjpbMTYyMTM1ODY2OSwtMTYwNzkzNzk3MiwtMT
 M1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
