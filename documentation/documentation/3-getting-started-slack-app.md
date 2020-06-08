@@ -26,12 +26,12 @@
 6. Now, copy the code underneath the header that reads "Sample curl request to post to a channel." 
 7. Navigate to terminal. Open a new window (command+N) and paste the code here. Hit enter.
 8. Open the `#app-tests` channel in the Learning Lab Development slack. You should see that a "Hello, World!" message from your app!
-9
+9. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODY4NjE1LC0xNjA3OTM3OTcyLC0xMz
-U2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTcxNzA3NjUwMSwtMTYwNzkzNzk3MiwtMT
+M1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
