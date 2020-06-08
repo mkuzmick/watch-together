@@ -14,13 +14,13 @@ web: node index.js
 `).
 7. Navigate back to Atom and make a new file (by right clicking the main watch-together folder) called `Procfile`. Paste the line of copied code in this file and save.
 8. Now, go back to terminal, and type in `git add .` to stage the changes you have made. Hit enter.
-9. Next, type in terminal  `git commit -m "added Procfile`. Then hit enter.
+9. Next, type in `git commit -m "added Procfile`. Then hit enter.
 3. Then, type in terminal `git push origin master`. This should push the changes to the master.
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMTEzOTM0LDE5NTczMTM1MjQsOTY0OT
-UzNjk5LC0xNzIxNjE0ODI0LC0xMjc0ODg1NTc2LC0xODgxNTEx
-NDgyLDE5MDEyMDg2MTgsNTAwMTI1ODc3LC0yMDkyODk0Mzk4LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTA4Njg4MDQwMiwxOTU3MzEzNTI0LDk2ND
+k1MzY5OSwtMTcyMTYxNDgyNCwtMTI3NDg4NTU3NiwtMTg4MTUx
+MTQ4MiwxOTAxMjA4NjE4LDUwMDEyNTg3NywtMjA5Mjg5NDM5OC
+w3MzA5OTgxMTZdfQ==
 -->
