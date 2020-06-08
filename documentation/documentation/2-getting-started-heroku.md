@@ -15,10 +15,10 @@ brew tap heroku/brew && brew install heroku
 9. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
 10. Next, type in `git push heroku master`. Hit enter. This pushes the changes to heroku, instead of the origin (which is github). Heroku will restart your app. **note that we may want to add a piece about creating the sheroku script here**
 11. Now, type in terminal `heroku open` and hit enter. You should see your app!
-12. One last thing - navigate to your [heroku dashboard](https://dashboard.heroku.com/apps) and click on the app you are working with.
+12. One last thing - navigate to your [heroku dashboard](https://dashboard.heroku.com/apps) and click on the app you are working with. Click "Deploy" and take a look at "Deployment Method". If you change the deployment method to Github, everytime you push to github, it will autoa**clean this step up**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTI1NjIyOSwtNzk1NjY0OTk3LC01MT
+eyJoaXN0b3J5IjpbLTUyNjk0MzI4NCwtNzk1NjY0OTk3LC01MT
 ExNDQ3OTUsMzk5MTM0NDU0LDE1NTgwODYwNzcsMTYwNzEzOTEy
 MywxOTU3MzEzNTI0LDk2NDk1MzY5OSwtMTcyMTYxNDgyNCwtMT
 I3NDg4NTU3NiwtMTg4MTUxMTQ4MiwxOTAxMjA4NjE4LDUwMDEy
