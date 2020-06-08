@@ -12,7 +12,7 @@ brew tap heroku/brew && brew install heroku
 6. Next, google `heroku proc file node`. Click on the first link and then navigate to [Define a Procfile](https://devcenter.heroku.com/articles/getting-started-with-nodejs#define-a-procfile). Copy the code (`
 web: node index.js
 `).
-7. Navigate back to Atom and make a new file (by right clicking the main watch-together folder) called `Procfile`. Paste the line of copied code in this file and save.
+7. Navigate back to Atom and make a new file (by right clicking the main watch-together folder) called `Procfile`. Paste the line of copied code in this file, but change the code `web: node ./bin/www` and save.
 8. Now, go back to terminal, and type in `git add .` to stage the changes you have made. Hit enter.
 9. Next, type in `git commit -m "added Procfile`. Then hit enter.
 10. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
@@ -22,8 +22,8 @@ web: node index.js
 12. Now, type in terminal `heroku open` and hit enter.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzEzOTEyMywxOTU3MzEzNTI0LDk2ND
-k1MzY5OSwtMTcyMTYxNDgyNCwtMTI3NDg4NTU3NiwtMTg4MTUx
-MTQ4MiwxOTAxMjA4NjE4LDUwMDEyNTg3NywtMjA5Mjg5NDM5OC
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTc1MzA3NDM4NCwxNjA3MTM5MTIzLDE5NT
+czMTM1MjQsOTY0OTUzNjk5LC0xNzIxNjE0ODI0LC0xMjc0ODg1
+NTc2LC0xODgxNTExNDgyLDE5MDEyMDg2MTgsNTAwMTI1ODc3LC
+0yMDkyODk0Mzk4LDczMDk5ODExNl19
 -->
