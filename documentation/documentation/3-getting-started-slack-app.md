@@ -23,12 +23,13 @@
 3. Scroll down and copy the code `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE`. ***Marlon you highlighted this but it didn't look like you copied this. I'm not exactly sure what this code does or what I should note here.***
 4. Click the bottom button that says "Add New Webhook to Workspace".
 5. Next, you will be asked in which channel should your app post to. You can select the `#app-tests` channel.
-6. Now
+6. Now, copy the code underneath the header that reads "Sample curl request to post to a channel." 
+7. Navigate to terminal. Open a new window (command+N)
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDcyNjUyNCwtMTYwNzkzNzk3MiwtMT
-M1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbLTExMjkyODcwMjUsLTE2MDc5Mzc5NzIsLT
+EzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
