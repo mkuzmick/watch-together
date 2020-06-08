@@ -14,12 +14,12 @@ brew tap heroku/brew && brew install heroku
 9. Next, type in `git commit -m "added Procfile`. Then hit enter.
 10. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
 11. Next, type in `git push heroku master`. Hit enter. This pushes the changes to heroku, instead of the origin (which is github). And then heroku will restart your app.
-**marlon this is also where you say that you are now typing in sheroku - a script you have to do what we just did. i'm guessing i'm not typing that in here because i don't have that script and other people won't, but why would you run the script after doing the things the script is supposed to do?**
 12. Now, type in terminal `heroku open` and hit enter.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5MTM0NDU0LDE1NTgwODYwNzcsMTYwNz
-EzOTEyMywxOTU3MzEzNTI0LDk2NDk1MzY5OSwtMTcyMTYxNDgy
-NCwtMTI3NDg4NTU3NiwtMTg4MTUxMTQ4MiwxOTAxMjA4NjE4LD
-UwMDEyNTg3NywtMjA5Mjg5NDM5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU4MjAxMTc4MSwzOTkxMzQ0NTQsMTU1OD
+A4NjA3NywxNjA3MTM5MTIzLDE5NTczMTM1MjQsOTY0OTUzNjk5
+LC0xNzIxNjE0ODI0LC0xMjc0ODg1NTc2LC0xODgxNTExNDgyLD
+E5MDEyMDg2MTgsNTAwMTI1ODc3LC0yMDkyODk0Mzk4LDczMDk5
+ODExNl19
 -->
