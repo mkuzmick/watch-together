@@ -10,13 +10,14 @@
 9. Change the value of title to ``{ title: `Word=${req.params.myword}` })``. Now save.
 10. In your internet browser, navigate to `http://localhost:3000/slack/word/testing`. Your word should be showing up the webpage. 
 
-Now we haven a way of getting some arbitrary input into this app. It's not the most elegant way, but at least one word from the decision maker is going into this app, and then we can do something with that word. So what we want to do next is learn how to send that word to a slack channel.
+### Now we haven a way of getting some arbitrary input into this app. It's not the most elegant way, but at least one word from the decision maker is going into this app, and then we can do something with that word. So what we want to do next is learn how to send that word to a slack channel.
+
 11. Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNDMyNzg3LC0xMzU2ODUyMDQxLDE3Nj
-AyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTg1ODI3NTc3NCwtMTM1Njg1MjA0MSwxNz
+YwMjM3MTcxXX0=
 -->
