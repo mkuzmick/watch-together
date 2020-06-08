@@ -43,18 +43,9 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 2. Next, type in terminal  `git commit -m "message"` which means commit with message. The string inside the hyphens is the place for you to type whatever message you wish to add to this commit. For example, `git commit -m "first commit"`. Then hit enter.
 3. Then, type in terminal `git push origin master`. This should push the changes to the master.
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
-5. Next, go back to the route file `slack.js`. Copy the first route and paste it below, with atleast a line of blank space in between them. We will now edit the one you just pasted.
-6. We will first add in an additional parameter. In `router.get('/'`, we will change the `/` to read `/word/:myword`.
-7. Next, press enter after the curly bracket at the end of the first line of code. On the new line, we will log something. Begin typing "log" and then hit enter when "log" comes up below. The code on this line should end up as ``console.log(`the word is ${req.params.myword}`);``.
-8. Change the value of title to ``{ title: `Word=${req.params.myword}` })``. Now save.
-9. In your internet browser, navigate to `http://localhost:3000/slack/word/testing`. Your word should be showing up the webpage. 
-
-
-Now we haven a way of getting some arbitrary input into this app. It's not the most elegant way, but at least one word from the decision maker is going into this app, and then we can do something with that word. So what we want to do next is learn how to send that word to a slack channel.
-11. Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjY0OTg3NiwtNzY1NTg4NTUzLC0xMD
-MxNDM2OTE1LDIxMzkyNTg3MDcsNjQ4NDk3NjAwLC0xNDkxNTI4
-NzY1LC0xNzc0MTY3MzExXX0=
+eyJoaXN0b3J5IjpbLTEwMzE0MzY5MTUsLTc2NTU4ODU1MywtMT
+AzMTQzNjkxNSwyMTM5MjU4NzA3LDY0ODQ5NzYwMCwtMTQ5MTUy
+ODc2NSwtMTc3NDE2NzMxMV19
 -->
