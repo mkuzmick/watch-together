@@ -47,10 +47,10 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 6. We will first add in an additional parameter. In `router.get('/'`, we will change the `/` to read `/word/:myword`.
 7. Next, press enter after the curly bracket at the end of the first line of code. On the new line, we will log something. Begin typing "log" and then hit enter when "log" comes up below. The code on this line should end up as ``console.log(`the word is ${req.params.myword}`);``.
 8. Change the value of title to ``{ title: `Word=${req.params.myword}` })``. Now save.
-9. In your internet browser, navigate to `http://localhost:3000/slack/word/testing`. Your word should be showing up the webpage. Now we haven a way of getting some arbitrary word into this app.
+9. In your internet browser, navigate to `http://localhost:3000/slack/word/testing`. Your word should be showing up the webpage. Now we haven a way of getting some arbitrary input into this app. It's not the most elegant way, but at least one word from the decision maker is going into this app, and then we can do something with that word.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NDEzODkxLC03NjU1ODg1NTMsLTEwMz
-E0MzY5MTUsMjEzOTI1ODcwNyw2NDg0OTc2MDAsLTE0OTE1Mjg3
-NjUsLTE3NzQxNjczMTFdfQ==
+eyJoaXN0b3J5IjpbMjA3NTQ2OTQ5OSwtNzY1NTg4NTUzLC0xMD
+MxNDM2OTE1LDIxMzkyNTg3MDcsNjQ4NDk3NjAwLC0xNDkxNTI4
+NzY1LC0xNzc0MTY3MzExXX0=
 -->
