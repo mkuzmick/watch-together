@@ -12,12 +12,13 @@
 
 ### Now we haven a way of getting some arbitrary input into this app. It's not the most elegant way, but at least one word from the decision maker is going into this app, and then we can do something with that word. So what we want to do next is learn how to send that word to a slack channel.
 
-11. Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
-
+1 Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
+2. In the top right hand corner of the page, click on "Your Apps".
+3. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODI3NTc3NCwtMTM1Njg1MjA0MSwxNz
-YwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbMTQ1MjcwNjg0LC0xMzU2ODUyMDQxLDE3Nj
+AyMzcxNzFdfQ==
 -->
