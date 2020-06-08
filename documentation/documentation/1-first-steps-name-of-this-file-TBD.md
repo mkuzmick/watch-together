@@ -46,12 +46,12 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 5. Next, go back to the route file `slack.js`. Copy the first route and paste it below, with atleast a line of blank space in between them. We will now edit the one you just pasted.
 6. We will first add in an additional parameter. In `router.get('/'`, we will change the `/` to read `/word/:myword`.
 7. Next, press enter after the curly bracket at the end of the first line of code. On the new line, we will log something. Begin typing "log" and then hit enter when "log" comes up below. The code on this line should end up as ``console.log(`the word is ${req.params.myword}`);``.
-8. Change the value of title to ``{ title: `Word=${req.params.word}` })``. Now save.
+8. Change the value of title to ``{ title: `Word=${req.params.myword}` })``. Now save.
 9. In your internet browser, navigate to `http://localhost:3000/slack/word/testing`.
 10. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjk2OTQ3MSwtNzY1NTg4NTUzLC0xMD
-MxNDM2OTE1LDIxMzkyNTg3MDcsNjQ4NDk3NjAwLC0xNDkxNTI4
-NzY1LC0xNzc0MTY3MzExXX0=
+eyJoaXN0b3J5IjpbNjIyMTg0NTk1LC03NjU1ODg1NTMsLTEwMz
+E0MzY5MTUsMjEzOTI1ODcwNyw2NDg0OTc2MDAsLTE0OTE1Mjg3
+NjUsLTE3NzQxNjczMTFdfQ==
 -->
