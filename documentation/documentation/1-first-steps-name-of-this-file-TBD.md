@@ -44,10 +44,11 @@ Your code is going to live on github, but to actually manipulate yourself, on yo
 3. Then, type in terminal `git push origin master`. This should push the changes to the master.
 4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 5. Next, go back to the route file `slack.js`. Copy the first route and paste it below, with atleast a line of blank space in between them. We will now edit the one you just pasted.
-6. We will first add in an additional parameter. In `router.get('/'`, we will change the `/` to `/word/:myword`
+6. We will first add in an additional parameter. In `router.get('/'`, we will change the `/` to read `/word/:myword`.
+7. Next, press enter after the curly bracket at the end of the first line of code. Start typing
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1MDEwMTg0LC0xMDMxNDM2OTE1LDIxMz
-kyNTg3MDcsNjQ4NDk3NjAwLC0xNDkxNTI4NzY1LC0xNzc0MTY3
-MzExXX0=
+eyJoaXN0b3J5IjpbLTEwMDE5NTAyMTcsLTEwMzE0MzY5MTUsMj
+EzOTI1ODcwNyw2NDg0OTc2MDAsLTE0OTE1Mjg3NjUsLTE3NzQx
+NjczMTFdfQ==
 -->
