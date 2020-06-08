@@ -15,11 +15,14 @@ web: node index.js
 7. Navigate back to Atom and make a new file (by right clicking the main watch-together folder) called `Procfile`. Paste the line of copied code in this file and save.
 8. Now, go back to terminal, and type in `git add .` to stage the changes you have made. Hit enter.
 9. Next, type in `git commit -m "added Procfile`. Then hit enter.
-3. Then, type in terminal `git push origin master`. This should push the changes to the master.
-4. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
+10. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
+11. Next, type in `git push heroku master`.
+
+ 
+12. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Njg4MDQwMiwxOTU3MzEzNTI0LDk2ND
+eyJoaXN0b3J5IjpbLTgxNTIwMzI2OCwxOTU3MzEzNTI0LDk2ND
 k1MzY5OSwtMTcyMTYxNDgyNCwtMTI3NDg4NTU3NiwtMTg4MTUx
 MTQ4MiwxOTAxMjA4NjE4LDUwMDEyNTg3NywtMjA5Mjg5NDM5OC
 w3MzA5OTgxMTZdfQ==
