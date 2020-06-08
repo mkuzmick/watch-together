@@ -17,13 +17,15 @@ web: node index.js
 9. Next, type in `git commit -m "added Procfile`. Then hit enter.
 10. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
 11. Next, type in `git push heroku master`. Hit enter. This pushes the changes to heroku, instead of the origin (which is github). And then heroku will start it up. **marlon this is what you said, i'm not sure if this sounds official and we want it here**
+**marlon this is also where you say that you are now typing in sheroku - a script you have to do what we just did. i'm guessing i'm not typing that in here because i don't have that script and other people won't, but why would you run the script after doing the
+12. 
 
  
-12. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
+13. You can check that this has worked by going back to the repository on github.com (where you cloned it) and refreshing the page. Your new folders, files, and changes inside the files should all be there.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5MDM5NDA3LDE5NTczMTM1MjQsOTY0OT
-UzNjk5LC0xNzIxNjE0ODI0LC0xMjc0ODg1NTc2LC0xODgxNTEx
-NDgyLDE5MDEyMDg2MTgsNTAwMTI1ODc3LC0yMDkyODk0Mzk4LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTY1Mzg4NzMwNSwxOTU3MzEzNTI0LDk2ND
+k1MzY5OSwtMTcyMTYxNDgyNCwtMTI3NDg4NTU3NiwtMTg4MTUx
+MTQ4MiwxOTAxMjA4NjE4LDUwMDEyNTg3NywtMjA5Mjg5NDM5OC
+w3MzA5OTgxMTZdfQ==
 -->
