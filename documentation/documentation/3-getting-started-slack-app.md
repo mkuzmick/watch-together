@@ -22,11 +22,13 @@
 2. Click where it says "Off" in gray to make it says "On" in green.
 3. Scroll down and copy the code `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE`. ***Marlon you highlighted this but it didn't look like you copied this. I'm not exactly sure what this code does or what I should note here.***
 4. Click the bottom button that says "Add New Webhook to Workspace".
+5. Next, you will be asked in which channel should your app post to. You can select the `#app-tests` channel.
+6. Now
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUzODE0NDYsLTE2MDc5Mzc5NzIsLT
-EzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbLTg3MDcyNjUyNCwtMTYwNzkzNzk3MiwtMT
+M1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
