@@ -14,11 +14,11 @@
 
 1 Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
 2. In the top right hand corner of the page, click on "Your Apps".
-3. 
+3. Click the green "Create an App" button. Make sure you are signed in and creating it in the Learning Lab Development team workplace (learninglab-dev.slack.com).
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjcwNjg0LC0xMzU2ODUyMDQxLDE3Nj
-AyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbLTE5MTAyMzIwMjAsLTEzNTY4NTIwNDEsMT
+c2MDIzNzE3MV19
 -->
