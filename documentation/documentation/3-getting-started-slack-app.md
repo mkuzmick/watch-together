@@ -15,11 +15,15 @@
 1 Google `Slack API`, which will bring you to [https://api.slack.com/](https://api.slack.com/). 
 2. In the top right hand corner of the page, click on "Your Apps".
 3. Click the green "Create an App" button. For name, type `watch-together-dd` (use your own initials!). Make sure you are signed in and creating it in the Learning Lab Development Team workspace (learninglab-dev.slack.com). Then click "Create App".
-4. 
+
+### The first thing we will do is the simplest: Incoming Webhooks.
+
+1. Still in 
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDM5NjA5MywtMTYwNzkzNzk3MiwtMT
-M1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbLTEzMDU0MDc2MDIsLTE2MDc5Mzc5NzIsLT
+EzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
