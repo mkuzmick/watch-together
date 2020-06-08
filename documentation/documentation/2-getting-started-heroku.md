@@ -13,10 +13,11 @@ brew tap heroku/brew && brew install heroku
 web: node index.js
 `).
 7. Navigate back to Atom and make a new file (by right clicking the main watch-together folder) called `Procfile`. Paste the line of copied code in this file and save.
+8. Now, go back to terminal, and type in `git add .` to add the changes you have made.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NTkwODY5LDE5NTczMTM1MjQsOTY0OT
-UzNjk5LC0xNzIxNjE0ODI0LC0xMjc0ODg1NTc2LC0xODgxNTEx
-NDgyLDE5MDEyMDg2MTgsNTAwMTI1ODc3LC0yMDkyODk0Mzk4LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3NTcxNjgzMTYsMTk1NzMxMzUyNCw5Nj
+Q5NTM2OTksLTE3MjE2MTQ4MjQsLTEyNzQ4ODU1NzYsLTE4ODE1
+MTE0ODIsMTkwMTIwODYxOCw1MDAxMjU4NzcsLTIwOTI4OTQzOT
+gsNzMwOTk4MTE2XX0=
 -->
