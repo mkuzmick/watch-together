@@ -30,14 +30,14 @@
 ### Next, we will learn how to use the hook to send any word we want into slack.
 1. Navigate back to `slack.js` in Atom.  Hit enter after ``console.log(`the word is ${req.params.myword}`);`` and type `//send that word to slack` on the new line.
 2. Open [https://slack.dev/node-slack-sdk/](https://slack.dev/node-slack-sdk/) in your internet browser.
-3. Click "Incoming Webhooks" in the left menu. This will give us a way of sending a single message to a single channel. This is note infinitely useful, but definitely useful for some things. The media team uses this for their file renaming scripts, for example. If you want to be notified that files are being renamed, we fire off this slack webhook. When you don't need to listen to a response back from slack, when you don't need to perform any additional operations, when this type of information always goes to this same channel, this is totally fine..
+3. Click "Incoming Webhooks" in the left menu. This will give us a way of sending a single message to a single channel. This is note infinitely useful, but definitely useful for some things. The media team uses this for their file renaming scripts, for example. If you want to be notified that files are being renamed, we fire off this slack webhook. When you don't need to listen to a response back from slack, when you don't need to perform any additional operations, when this type of information always goes to this same channel, this is totally fine. It's more secure than all those other things, because once you have permission to access different users and send things to private channels, then you can get into more trouble, since here you're just getting permission to send to one single channel.
 4. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA3NDY2ODgsLTE1NTU2NDU1MjcsNz
-Q4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUy
-MDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbODcxNjA1NTM1LC0xNTU1NjQ1NTI3LDc0OD
+Q1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1MjA0
+MSwxNzYwMjM3MTcxXX0=
 -->
