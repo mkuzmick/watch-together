@@ -30,14 +30,14 @@
 ### Next, we will learn how to use the hook to send any word we want into slack.
 1. Navigate back to `slack.js` in Atom.  Hit enter after ``console.log(`the word is ${req.params.myword}`);`` and type `//send that word to slack` on the new line.
 2. Open [https://slack.dev/node-slack-sdk/](https://slack.dev/node-slack-sdk/) in your internet browser.
-3. Click "Incoming Webhooks" in the left menu.
+3. Click "Incoming Webhooks" in the left menu. This will give us a way of sending a single message to a single channel. This is note infinitely useful, but definitely useful for some things. The media team uses this for their file renaming scripts, for example. If you want to be notified that files are being renamed, we fire off this sl
 4. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQyMTc5NzAsLTE1NTU2NDU1MjcsNz
-Q4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUy
-MDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTk4OTUwNDM0MiwtMTU1NTY0NTUyNyw3ND
+g0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIw
+NDEsMTc2MDIzNzE3MV19
 -->
