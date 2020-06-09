@@ -28,12 +28,13 @@
 8. Open the `#app-tests` channel in the Learning Lab Development slack. You should see a "Hello, World!" message from your app!
 
 ### Next, we will learn how to use the hook to send any word we want into slack.
-1. 
+1. Type `//send that word to slack`
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OT
-M3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbLTEwMjAyNjc3MDcsNzQ4NDU1NTUxLDk5MD
+QxMTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcx
+NzFdfQ==
 -->
