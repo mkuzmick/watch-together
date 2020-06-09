@@ -29,12 +29,13 @@
 
 ### Next, we will learn how to use the hook to send any word we want into slack.
 1. Navigate back to `slack.js` in Atom.  Hit enter after ``console.log(`the word is ${req.params.myword}`);`` and type `//send that word to slack` on the new line.
+2. Open [https://slack.dev/node-slack-sdk/](https://slack.dev/node-slack-sdk/) in your internet browser.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzQxOTEyOSw3NDg0NTU1NTEsOTkwND
-ExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3
-MV19
+eyJoaXN0b3J5IjpbLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MD
+QxMTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcx
+NzFdfQ==
 -->
