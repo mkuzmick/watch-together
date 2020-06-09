@@ -28,13 +28,13 @@
 8. Open the `#app-tests` channel in the Learning Lab Development slack. You should see a "Hello, World!" message from your app!
 
 ### Next, we will learn how to use the hook to send any word we want into slack.
-1. Type `//send that word to slack`
+1. Navigate back to `slack.js` in Atom.  Hit enter after ``console.log(`the word is ${req.params.myword}`);`` and type `//send that word to slack` on the new line.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjAyNjc3MDcsNzQ4NDU1NTUxLDk5MD
-QxMTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcx
-NzFdfQ==
+eyJoaXN0b3J5IjpbMTg0NzQxOTEyOSw3NDg0NTU1NTEsOTkwND
+ExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3
+MV19
 -->
