@@ -45,11 +45,13 @@ const url = process.env.SLACK_WEBHOOK_URL;
 const { IncomingWebhook } = require('@slack/webhook');
 `. This is called destructuring, or webhook.
 9. Back in Atom, paste the new copied code above the previous one you just added. Feel free to hit enter at the beginning of your new line to keep your new additions separate.
+10. In line 5, change `const url` to `const webhookUrl` . **marlon i didn't write notes on the other option you showed first, with graying out one line and adding two new lines below..you ended up going back to this so that's what i've noted. but if you want me to write 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczOD
-c5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgs
-LTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbNjI0ODU0MDY5LC0xODgwOTc0MCwxMDA5NT
+g4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUx
+LDk5MDQxMTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3Nj
+AyMzcxNzFdfQ==
 -->
