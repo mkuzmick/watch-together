@@ -36,13 +36,13 @@
 4. Copy the code `
 npm install @slack/webhook
 ` to install the npm package. **marlon, the code on this page starts with a "$" why do we not copy that? and should I make a note about ignoring that?**
-5. 
+5. Navigate back to terminal and make sure you are in the `watch-together` folder.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTM0NzY0MCwxNzM4Nzk3NjEwLC0xNT
-U1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3
-MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbOTgzMTQ1NjQ2LDE3Mzg3OTc2MTAsLTE1NT
+U2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcy
+LC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
 -->
