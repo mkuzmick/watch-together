@@ -28,12 +28,11 @@
 8. Open the `#app-tests` channel in the Learning Lab Development slack. You should see a "Hello, World!" message from your app!
 
 ### Next, we will learn how to use the hook to send any word we want into slack.
+*This will give us a way of sending a single message to a single channel. This is not infinitely useful, but is definitely useful for some things. The media team uses this for their file renaming scripts, for example - we want to be notified that files are being renamed, so we fire off this slack webhook. When you don't need to listen to a response back from slack, when you don't need to perform any additional operations, when this type of information always goes to this same channel (as opposed to directing it to specific users or channels) this is totally fine. It's more secure than all those other things, because once you have permission to access different users and send things to their private channels, then you can get into more trouble. Here, you're just getting permission to send to one single channel on slack.*
+
 1. Navigate back to `slack.js` in Atom.  Hit enter after ``console.log(`the word is ${req.params.myword}`);`` and type `//send that word to slack` on the new line.
 2. Open [https://slack.dev/node-slack-sdk/](https://slack.dev/node-slack-sdk/) in your internet browser.
 3. Click "Incoming Webhooks" in the left menu. 
-
-*This will give us a way of sending a single message to a single channel. This is not infinitely useful, but is definitely useful for some things. The media team uses this for their file renaming scripts, for example - we want to be notified that files are being renamed, so we fire off this slack webhook. When you don't need to listen to a response back from slack, when you don't need to perform any additional operations, when this type of information always goes to this same channel (as opposed to directing it to specific users or channels) this is totally fine. It's more secure than all those other things, because once you have permission to access different users and send things to their private channels, then you can get into more trouble. Here, you're just getting permission to send to one single channel on slack.*
-
 4. Copy the code `
 npm install @slack/webhook
 ` to install the npm package. **marlon, the code on this page starts with a "$" why do we not copy that? and should I make a note about ignoring that?**
@@ -43,7 +42,7 @@ npm install @slack/webhook
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwNTk2OTM4LDE3Mzg3OTc2MTAsLTE1NT
-U2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcy
-LC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTkwNTM0NzY0MCwxNzM4Nzk3NjEwLC0xNT
+U1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3
+MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
