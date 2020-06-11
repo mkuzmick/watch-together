@@ -32,15 +32,15 @@
 2. Open [https://slack.dev/node-slack-sdk/](https://slack.dev/node-slack-sdk/) in your internet browser.
 3. Click "Incoming Webhooks" in the left menu. 
 
-*This will give us a way of sending a single message to a single channel. This is not infinitely useful, but is definitely useful for some things. The media team uses this for their file renaming scripts, for example - we want to be notified that files are being renamed, so we fire off this slack webhook. When you don't need to listen to a response back from slack, when you don't need to perform any additional operations, when this type of information always goes to this same channel (as opposed to directing it to specific users or channels) this is totally fine. It's more secure than all those other things, because once you have permission to access different users and send things to private channels, then you can get into more trouble. Here, you're just getting permission to send to one single channel on slack.*
+*This will give us a way of sending a single message to a single channel. This is not infinitely useful, but is definitely useful for some things. The media team uses this for their file renaming scripts, for example - we want to be notified that files are being renamed, so we fire off this slack webhook. When you don't need to listen to a response back from slack, when you don't need to perform any additional operations, when this type of information always goes to this same channel (as opposed to directing it to specific users or channels) this is totally fine. It's more secure than all those other things, because once you have permission to access different users and send things to their private channels, then you can get into more trouble. Here, you're just getting permission to send to one single channel on slack.*
 
-4. 
+4. Copy
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODc5NzYxMCwtMTU1NTY0NTUyNyw3ND
-g0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIw
-NDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbLTg2MjA5ODU3NywxNzM4Nzk3NjEwLC0xNT
+U1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3
+MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
