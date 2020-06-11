@@ -33,16 +33,16 @@
 1. Navigate back to `slack.js` in Atom.  Hit enter after ``console.log(`the word is ${req.params.myword}`);`` and type `//send that word to slack` on the new line.
 2. Open [https://slack.dev/node-slack-sdk/](https://slack.dev/node-slack-sdk/) in your internet browser.
 3. Click "Incoming Webhooks" in the left menu. 
-4. Copy the code `
+4. Copy the "Installation" code `
 npm install @slack/webhook
-` to install the npm package. **marlon, the code on this page starts with a "$" why do we not copy that? and should I make a note about ignoring that?**
-5. Navigate back to terminal and make sure you are in the `watch-together` folder.
+` to install the npm package. Note: do not copy the  **marlon, the code on this page starts with a "$" why do we not copy that? and should I make a note about ignoring that?**
+5. Navigate back to terminal and make sure you are in the `watch-together` folder. Paste the copied code and hit enter.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMTQ1NjQ2LDE3Mzg3OTc2MTAsLTE1NT
-U2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcy
-LC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbLTc0ODg0MTQyNSwxNzM4Nzk3NjEwLC0xNT
+U1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3
+MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
