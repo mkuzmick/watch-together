@@ -50,15 +50,14 @@ const { IncomingWebhook } = require('@slack/webhook');
 const webhook = new IncomingWebhook(url);
 `. Back in Atom, paste this copied code in a new line underneath the other two `const` lines of code. Hit save.
 12. You can simplify this code by copying `process.env.SLACK_WEBHOOK_URL` in the second line of code, and pasting it in the third line of code, inside the parentheses (replacing `url`). 
-13. Delete the second line of `const` code. Now there should just be two lines:
-`const { IncomingWebhook } = require('@slack/webhook');`
-`const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);`
+13. Delete the second line of `const` code. Now grab the newly formulated line of code
+`const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and paste it in a new line after the first `{` in the `router.get
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzg1NTE0MSwtMTg4MDk3NDAsMTAwOT
-U4ODgxOSwxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LDc0ODQ1NTU1
-MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1MjA0MSwxNz
-YwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbLTI0MDE4Njk5MywxMDg3ODU1MTQxLC0xOD
+gwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2NDU1
+MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcyLC0xMz
+U2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
 -->
