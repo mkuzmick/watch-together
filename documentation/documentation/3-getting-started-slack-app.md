@@ -46,13 +46,15 @@ const { IncomingWebhook } = require('@slack/webhook');
 `. This is called destructuring, or webhook.
 9. Back in Atom, paste the new copied code above the previous one you just added. Feel free to hit enter at the beginning of your new line to keep your new additions separate.
 10. In line 5, change `const url` to `const webhookUrl` . **marlon i didn't write notes on the other option you showed first, with graying out one line and adding two new lines below..you ended up going back to this so that's what i've noted. but if you want me to write out those steps,  maybe we can talk about them more, because i was confused on what was happening.**
-11. Go back to your internet browser and now grab the third line of code underneath the heading "Initialize the webhook." The third line of code is under the grayed 
+11. Go back to your internet browser and now grab the third line of code underneath the heading "Initialize the webhook." The third line of code is under the grayed out heading "// Initialize" : `
+const webhook = new IncomingWebhook(url);
+`.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyOTcxODM1LC0xODgwOTc0MCwxMDA5NT
-g4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUx
-LDk5MDQxMTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3Nj
-AyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTg2ODA1ODA4NiwtMTg4MDk3NDAsMTAwOT
+U4ODgxOSwxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LDc0ODQ1NTU1
+MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1MjA0MSwxNz
+YwMjM3MTcxXX0=
 -->
