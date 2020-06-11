@@ -44,13 +44,12 @@ const url = process.env.SLACK_WEBHOOK_URL;
 8. Navigate back to your internet browser and copy the first line of code underneath the heading "Initialize the webhook". The copied code should be `
 const { IncomingWebhook } = require('@slack/webhook');
 `.
-9. 
+9. Back in Atom, paste the new copied code above the previous one you just added. Feel free to hit enter at the beginning of your new line to keep your new additions separate.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzEwNDQ2NiwxMDA5NTg4ODE5LDE3Mz
-g3OTc2MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4
-LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ
-==
+eyJoaXN0b3J5IjpbOTQ0Mzg5MjA0LDEwMDk1ODg4MTksMTczOD
+c5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgs
+LTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
