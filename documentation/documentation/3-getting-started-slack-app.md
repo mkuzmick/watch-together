@@ -43,13 +43,13 @@ const url = process.env.SLACK_WEBHOOK_URL;
 7. Now, go back to Atom and open `slack.js`. Hit enter twice after the second line of code on the very top of the page, and paste the line of copied code. Hit enter again a few times to leave a couple empty lines. Hit save.
 8. Navigate back to your internet browser and copy the first line of code underneath the heading "Initialize the webhook". The copied code should be `
 const { IncomingWebhook } = require('@slack/webhook');
-`.
+`. This is called destructuring, or webhook.
 9. Back in Atom, paste the new copied code above the previous one you just added. Feel free to hit enter at the beginning of your new line to keep your new additions separate.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0Mzg5MjA0LDEwMDk1ODg4MTksMTczOD
+eyJoaXN0b3J5IjpbLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczOD
 c5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgs
 LTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
