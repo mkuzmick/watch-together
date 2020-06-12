@@ -57,7 +57,8 @@ const webhook = new IncomingWebhook(url);
 14. Back in your internet browser, look for the heading "Send a notification". Under the smaller, grayed out heading `// Send the notification`, copy the code that begins with 
 `(async`.
 15. Navigate back to `slack.js` in Atom.  Hit enter a few times at the beginning of the last line of code to make space around line 18. Type in the code `async function sendMyMessage (word) { }`. Hit enter a few times before the last `}` to free up space and then paste the copied code inside there. The final code should look like: 
-```async function sendMyMessage (word) {
+```
+async function sendMyMessage (word) {
   (async () => {
       await webhook.send({
         text: 'I\'ve got news for you...',
@@ -74,9 +75,9 @@ const webhook = new IncomingWebhook(url);
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ0MTM3MDAsLTE2MjgzODg4MDQsLT
-ExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1MTQxLC0xODgw
-OTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2NDU1Mj
-csNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcyLC0xMzU2
-ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTgxMzM0OTI2LC0xNjI4Mzg4ODA0LC0xMT
+E0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1NTE0MSwtMTg4MDk3
+NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LD
+c0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1
+MjA0MSwxNzYwMjM3MTcxXX0=
 -->
