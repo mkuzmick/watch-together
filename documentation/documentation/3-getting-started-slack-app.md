@@ -61,8 +61,15 @@ const webhook = new IncomingWebhook(url);
 17. From where you cut `const webhook`, replace that with `sendMyMessage(req.params.myword)`.
 18. Down where the value of `text` is `'I\'ve got news for you...',`, change the value to `my word is ${word}`. Make sure this code is backticks, and not single quotes.
 
-The final code should look like: 
+The final code of the second half of `slack.js` should look like: 
 ```
+router.get('/word/:myword', function(req, res, next) {
+  sendMyMessage(req.params.myword)
+  console.log(`the word is ${req.params.myword}`);
+  //send that word to slack
+  res.render('index', { title: `Word=${req.params.myword}` });
+});
+
 async function sendMyMessage (word) {
   const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);
   (async () => {
@@ -71,6 +78,9 @@ async function sendMyMessage (word) {
       });
     })();
 }
+
+module.exports = router;
+
 ```
 
 17.  
@@ -81,9 +91,9 @@ async function sendMyMessage (word) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzQzMDgzNiwxODEzMzQ5MjYsLTE2Mj
-gzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1
-MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLT
-E1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3
-OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbNTcyNDkwNzU5LDE4MTMzNDkyNiwtMTYyOD
+M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
+NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
+U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
+NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
