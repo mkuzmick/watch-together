@@ -124,10 +124,12 @@ async function sendMyMessage (word) {
 15. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
 16. Next, type in `git push heroku master`. Hit enter.
 17. This should allow us to test our app on heroku. In your internet browser, go to `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku` (first replace `bok-watch-together` with the name of the app you created). 
-18. ***Not sure where to put this, but "Dotenv" is how we define the environment on our local machine. 
+
+***Not sure where to put this, but "dotenv" is a strategy that we use only for the local development server. When this is running on heroku, we actually define the environment variables on heroku directly. To do this:
+1. In terminal, in the correct folder (`watch-together`).
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTI3NjQxNCwtNDc3Mzk3NTY5LC05MD
+eyJoaXN0b3J5IjpbMTkyMzI1MzMwMywtNDc3Mzk3NTY5LC05MD
 Y4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIzLDE4MTMzNDky
 NiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LD
 EwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5
