@@ -122,13 +122,14 @@ async function sendMyMessage (word) {
 13. Back in terminal, first make sure you are still in the correct folder (`watch-together`). Type in `git add .` to stage the changes you have made. Hit enter.
 14. Next, type in `git commit -m "adding webhook"`. Then hit enter.
 15. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
-16. Next, type in `git push heroku master`. Hit enter. 
+16. Next, type in `git push heroku master`. Hit enter.
+17. This should allow us to test our app on heroku. In your internet browser, go to `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku` (replace `bok-watch-together` with the name of the app you created). 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzM5NzU2OSwtOTA2ODk4MDEwLDU3MT
-I4Njc4OCwtMTUxMjQ0NTYyMywxODEzMzQ5MjYsLTE2MjgzODg4
-MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1MTQxLC
-0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2
-NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcyLC
-0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTM3Njc1NDMzMSwtNDc3Mzk3NTY5LC05MD
+Y4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIzLDE4MTMzNDky
+NiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LD
+EwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5
+NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLT
+E2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
