@@ -98,11 +98,24 @@ So this is the most basic way of connecting our slack to our express app, and th
 ### If we want to do a lot of different things with slack, we might want to create a kind of utilities folder that performs different sorts of operations for us that we then just require in to this module.
 
 1. In Atom, create a new subfolder in your main watch-together folder called `tools`.
+2. Inside the `tools` folder, create a new file called `slack-tools.js`.
+3. Go back to the file `slack.js` and cut the code:
+```
+async function sendMyMessage (word) {
+  const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);
+  (async () => {
+      await webhook.send({
+        text: `my word is ${word}`,
+      });
+    })();
+}
+```
+4.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzQwMjY0MCwtMTUxMjQ0NTYyMywxOD
+eyJoaXN0b3J5IjpbMTcyNDg3NTUzMCwtMTUxMjQ0NTYyMywxOD
 EzMzQ5MjYsLTE2MjgzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2
 MzQ1OSwxMDg3ODU1MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LD
 E3Mzg3OTc2MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQx
