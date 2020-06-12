@@ -118,13 +118,14 @@ async function sendMyMessage (word) {
 9. Back in `slack.js`, you need to replace what you just copied with `const slackTools = require ('../tools/slack-tools');` to require in the new file. 
 10. Still in `slack.js`,  add `slackTools.` to the beginning of `sendMyMessage(req.params.myword);`.
 11. Make sure to save the changes you've made in both of these files.
-12. Open up your internet browser to test again with a new word. For example, `http://localhost:3000/slack/word/dani`. A new slack message should have gone through with y
+12. Open up your internet browser to test again with a new word. For example, `http://localhost:3000/slack/word/dani`. A new slack message should have gone through with your new word as well.
+13. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDQ0Mjk0MCwtOTA2ODk4MDEwLDU3MT
-I4Njc4OCwtMTUxMjQ0NTYyMywxODEzMzQ5MjYsLTE2MjgzODg4
-MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1MTQxLC
-0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2
-NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcyLC
-0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbNzk3MjQ5NTgyLC05MDY4OTgwMTAsNTcxMj
+g2Nzg4LC0xNTEyNDQ1NjIzLDE4MTMzNDkyNiwtMTYyODM4ODgw
+NCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUxNDEsLT
+E4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMTU1NTY0
+NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5NzIsLT
+EzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
