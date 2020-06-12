@@ -56,7 +56,10 @@ const webhook = new IncomingWebhook(url);
 ### To send a notification:
 14. Back in your internet browser, look for the heading "Send a notification". Under the smaller, grayed out heading `// Send the notification`, copy the code that begins with 
 `(async`.
-15. Navigate back to `slack.js` in Atom.  Hit enter a few times at the beginning of the last line of code to make space around line 18. Type in the code `async function sendMyMessage (word) { }`. Hit enter a few times before the last `}` to free up space and then paste the copied code inside there. The final code should look like: 
+15. Navigate back to `slack.js` in Atom.  Hit enter a few times at the beginning of the last line of code to make space around line 18. Type in the code `async function sendMyMessage (word) { }`. Hit enter a few times before the last `}` to free up space and then paste the copied code inside there.
+16.  For webhook to be in scope **<--I don't know what that means!**, grab `const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and
+
+The final code should look like: 
 ```
 async function sendMyMessage (word) {
   (async () => {
@@ -67,17 +70,17 @@ async function sendMyMessage (word) {
 }
 ```
 
-16.  
-17. 
+17.  
+18. 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzM0OTI2LC0xNjI4Mzg4ODA0LC0xMT
-E0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1NTE0MSwtMTg4MDk3
-NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LD
-c0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1
-MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbMTM3NDM5OTgxOSwxODEzMzQ5MjYsLTE2Mj
+gzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1
+MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLT
+E1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3
+OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
 -->
