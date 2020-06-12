@@ -56,14 +56,15 @@ const webhook = new IncomingWebhook(url);
 ### To send a notification:
 14. Back in your internet browser, look for the heading "Send a notification". Under the smaller, grayed out heading `// Send the notification`, copy the code that begins with 
 `(async`.
+15. Navigate back to `slack.js` in Atom.
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg0NzQ1MjgsMTMxNjQ2MzQ1OSwxMD
-g3ODU1MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2
-MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNj
-A3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjUxNDc3NCwxMzE2NDYzNDU5LDEwOD
+c4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYx
+MCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MD
+c5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
