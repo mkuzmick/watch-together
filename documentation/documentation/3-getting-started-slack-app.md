@@ -88,15 +88,14 @@ module.exports = router;
 22. Paste the URL after `SLACK_WEBHOOK_URL=`. Hit save.
 23. Next, go to your `app.js` file in Atom. You need to use the `.env` module in this file as high up in the file as you can. After `var slackRouter = require('./routes/slack');`, hit enter a few times. Type ``require(`dotenv`).config();``. Hit save.
 24. Now it needs to be installed in terminal. First make sure you are in the correct folder (`watch-together`). Then, type in `npm i dotenv`. Hit enter.
-25. Open up `http://localhost:3000/slack/word/testing` and hit refresh. A slack message should have just been sent
-
+25. Open up `http://localhost:3000/slack/word/testing` and hit refresh. A slack message saying "my word is testing" should have just been received. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MDA2MzgwLDE4MTMzNDkyNiwtMTYyOD
-M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
-NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
-U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
-NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbLTE5NzQzODg2MjAsMTgxMzM0OTI2LC0xNj
+I4Mzg4ODA0LC0xMTE0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1
+NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC
+0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkz
+Nzk3MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
