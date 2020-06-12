@@ -55,19 +55,19 @@ const webhook = new IncomingWebhook(url);
 
 ### To send a notification:
 14. Back in your internet browser, look for the heading "Send a notification". Under the smaller, grayed out heading `// Send the notification`, copy the code:
-``(async () => {
+```(async () => {
   await webhook.send({
     text: 'I\'ve got news for you...',
   });
 })();```
 
-asd
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYyNzI0MiwxMzE2NDYzNDU5LDEwOD
-c4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYx
-MCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MD
-c5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbODk2NjgxODk4LDEzMTY0NjM0NTksMTA4Nz
+g1NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEw
+LC0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNz
+kzNzk3MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
