@@ -82,7 +82,7 @@ async function sendMyMessage (word) {
 module.exports = router;
 
 ```
-19. 
+19. Open up `http://localhost:3000/slack/word/testing` in your internet browser. 
 20.
 
 
@@ -90,9 +90,9 @@ module.exports = router;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA4MDc3MzYsMTgxMzM0OTI2LC0xNj
-I4Mzg4ODA0LC0xMTE0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1
-NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC
-0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkz
-Nzk3MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbNTMxNTI2MTM3LDE4MTMzNDkyNiwtMTYyOD
+M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
+NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
+U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
+NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
