@@ -123,10 +123,11 @@ async function sendMyMessage (word) {
 14. Next, type in `git commit -m "adding webhook"`. Then hit enter.
 15. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
 16. Next, type in `git push heroku master`. Hit enter.
-17. This should allow us to test our app on heroku. In your internet browser, go to `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku` (replace `bok-watch-together` with the name of the app you created). 
+17. This should allow us to test our app on heroku. In your internet browser, go to `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku` (first replace `bok-watch-together` with the name of the app you created). 
+18. ***Not sure where to put this, but "Dotenv" is how we define the environment on our local machine. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Njc1NDMzMSwtNDc3Mzk3NTY5LC05MD
+eyJoaXN0b3J5IjpbMTU3NTI3NjQxNCwtNDc3Mzk3NTY5LC05MD
 Y4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIzLDE4MTMzNDky
 NiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LD
 EwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5
