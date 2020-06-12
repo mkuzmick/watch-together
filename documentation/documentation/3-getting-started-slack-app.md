@@ -89,14 +89,19 @@ module.exports = router;
 23. Next, go to your `app.js` file in Atom. You need to use the `.env` module in this file as high up in the file as you can. After `var slackRouter = require('./routes/slack');`, hit enter a few times. Type ``require(`dotenv`).config();``. Hit save.
 24. Now it needs to be installed in terminal. First make sure you are in the correct folder (`watch-together`). Then, type in `npm i dotenv`. Hit enter.
 25. Open up `http://localhost:3000/slack/word/testing` and hit refresh. A slack message saying "my word is testing" should have just been received. 
-26. If you change the URL slightly to `http://localhost:3000/slack/word/testing-again` and hit enter, a new slack message should come through that says "my word is testing-again". This is useful because you can be putting in names! You would probably never want to slack a channel any time anyone reloads a website, but the basic principle is that your app can know something, and then it can go in and tell slack about it.
+26. If you change the URL slightly to `http://localhost:3000/slack/word/testing-again` and hit enter, a new slack message should come through that says "my word is testing-again". 
+
+This is useful because you can be putting in names! You would probably never want to slack a channel any time anyone reloads a website, but the basic principle is that your app can know something, and then it can go in and tell slack about it.
+
+: So this is the most basic way of connecting our slack to our express app, and that's with webhooks. We did that by using the slack webhook module.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI0NDU2MjMsMTgxMzM0OTI2LC0xNj
-I4Mzg4ODA0LC0xMTE0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1
-NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC
-0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkz
-Nzk3MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbOTA0MTQxNzI0LC0xNTEyNDQ1NjIzLDE4MT
+MzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYz
+NDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMT
+czODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDEx
+OTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV
+19
 -->
