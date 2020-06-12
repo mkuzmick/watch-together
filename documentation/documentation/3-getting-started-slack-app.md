@@ -83,14 +83,14 @@ module.exports = router;
 
 ```
 19. Open up `http://localhost:3000/slack/word/testing` in your internet browser. 
-20.
+20. **not sure where we should put this, since we are just doing this step now but i kn
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxNTI2MTM3LDE4MTMzNDkyNiwtMTYyOD
+eyJoaXN0b3J5IjpbLTEwNDEyNzU4LDE4MTMzNDkyNiwtMTYyOD
 M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
 NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
 U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
