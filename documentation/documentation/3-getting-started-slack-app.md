@@ -58,13 +58,13 @@ const webhook = new IncomingWebhook(url);
 `(async`.
 15. Navigate back to `slack.js` in Atom.  Hit enter a few times at the beginning of the last line of code to make space around line 18. Type in the code `async function sendMyMessage (word) { }`. Hit enter a few times before the last `}` to free up space and then paste the copied code inside there.
 16.  For webhook to be in scope **<--I don't know what that means!**, cut `const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and paste it in a line after `async function sendMyMessage (word) {`. 
-17. From where you cut `const webhook`, replace that with `sendMyMessage(req.params.myword)`.
+17. From where you cut `const webhook`, replace that with `sendMyMessage(req.params.myword);`.
 18. Down where the value of `text` is `'I\'ve got news for you...',`, change the value to `my word is ${word}`. Make sure this code is backticks, and not single quotes. Hit save.
 
 The final code of the second half of `slack.js` should look like: 
 ```
 router.get('/word/:myword', function(req, res, next) {
-  sendMyMessage(req.params.myword)
+  sendMyMessage(req.params.myword);
   console.log(`the word is ${req.params.myword}`);
   //send that word to slack
   res.render('index', { title: `Word=${req.params.myword}` });
@@ -116,11 +116,11 @@ async function sendMyMessage (word) {
 7. After the last line of this file's code, hit enter a couple times. Type `modules.sendMyMessage = sendMyMessage;`.
 8. Because we are now using `IncomingWebhook` in `slack-tools.js`, we need to require the slack webhook module not in `slack.js`, but in `slack-tools.js`. So, copy `const { IncomingWebhook } = require('@slack/webhook');` from `slack.js` and paste it in the beginning of `slack-tools.js`.
 9. Back in `slack.js`, you need to replace what you just copied with `const slackTools = require ('../tools/slack-tools ');` to require in the new file. 
-10. Still in `slack.js`,  
+10. Still in `slack.js`,  add `slackTools.` to the beginning of `sendMyMessage(req.params.myword);`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxODUzMDU2LC0xNTEyNDQ1NjIzLDE4MT
+eyJoaXN0b3J5IjpbNjU2NjY5NTY5LC0xNTEyNDQ1NjIzLDE4MT
 MzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYz
 NDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMT
 czODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDEx
