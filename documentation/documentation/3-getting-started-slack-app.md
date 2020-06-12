@@ -86,14 +86,16 @@ module.exports = router;
 20. **not sure where we should put this, since we are just doing this step now but i know it should come earlier!** In Atom, create a file in your main watch-together folder called `.env`. 
 21. Type in `SLACK_WEBHOOK_URL=`. To find out the URL that needs to go after the `=`, go back to [Slack API's "Incoming Webhooks" page](https://api.slack.com/apps/A014LR198AK/incoming-webhooks?success=1). At the bottom of this page, copy the webhook URL. 
 22. Paste the URL after `SLACK_WEBHOOK_URL=`. Hit save.
+23. Next, go to your `app.js` file in Atom. You need to use the `.env` module in this file as high up in the file as you can. After `var slackRouter = require('./routes/slack');`, hit enter a few times.
+24. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2ODc1NDA4LDE4MTMzNDkyNiwtMTYyOD
-M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
-NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
-U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
-NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbLTU3NTc1MjA5NiwxODEzMzQ5MjYsLTE2Mj
+gzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1
+MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLT
+E1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3
+OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
 -->
