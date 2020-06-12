@@ -126,13 +126,14 @@ async function sendMyMessage (word) {
 17. This should allow us to test our app on heroku. In your internet browser, go to `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku` (first replace `bok-watch-together` with the name of the app you created). 
 
 ***Not sure where to put this, but "dotenv" is a strategy that we use only for the local development server. When this is running on heroku, we actually define the environment variables on heroku directly. To do this:
-1. In terminal, in the correct folder (`watch-together`).
+1. In terminal,  while in the folder that the app is in (`watch-together`), type in `heroku config:add `. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzI1MzMwMywtNDc3Mzk3NTY5LC05MD
-Y4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIzLDE4MTMzNDky
-NiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LD
-EwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5
-NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLT
-E2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbLTIxMzM3OTE4NjgsLTQ3NzM5NzU2OSwtOT
+A2ODk4MDEwLDU3MTI4Njc4OCwtMTUxMjQ0NTYyMywxODEzMzQ5
+MjYsLTE2MjgzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OS
+wxMDg3ODU1MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3
+OTc2MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC
+0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+
 -->
