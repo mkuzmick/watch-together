@@ -119,13 +119,13 @@ async function sendMyMessage (word) {
 10. Still in `slack.js`,  add `slackTools.` to the beginning of `sendMyMessage(req.params.myword);`.
 11. Make sure to save the changes you've made in both of these files.
 12. Open up your internet browser to test again with a new word. For example, `http://localhost:3000/slack/word/dani`. A new slack message should have gone through with your new word as well.
-13. Back in terminal, type in `git add .` to stage the changes you have made. Hit enter.
-14. Next, type in `git commit -m "added Procfile`. Then hit enter.
+13. Back in terminal, first make sure you are still in the correct folder (`watch-together`). Type in `git add .` to stage the changes you have made. Hit enter.
+14. Next, type in `git commit -m "adding webhook"`. Then hit enter.
 15. Then, type in `git push origin master`.  Hit enter. This should push the changes to the master.
 16. Next, type in `git push heroku master`. Hit enter. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTA2NjE3NiwtOTA2ODk4MDEwLDU3MT
+eyJoaXN0b3J5IjpbLTQ3NzM5NzU2OSwtOTA2ODk4MDEwLDU3MT
 I4Njc4OCwtMTUxMjQ0NTYyMywxODEzMzQ5MjYsLTE2MjgzODg4
 MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1MTQxLC
 0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2
