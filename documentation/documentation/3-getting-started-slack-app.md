@@ -115,14 +115,15 @@ async function sendMyMessage (word) {
 6. Type in `const sendMyMessage = ` at the beginning of your first line of code. Delete the second `sendMyMessage` that appears later on in this line of code.
 7. After the last line of this file's code, hit enter a couple times. Type `modules.sendMyMessage = sendMyMessage;`.
 8. Because we are now using `IncomingWebhook` in `slack-tools.js`, we need to require the slack webhook module not in `slack.js`, but in `slack-tools.js`. So, copy `const { IncomingWebhook } = require('@slack/webhook');` from `slack.js` and paste it in the beginning of `slack-tools.js`.
-9. Back in `slack.js`, you need to replace what you just copied with `const 
+9. Back in `slack.js`, you need to replace what you just copied with `const slackTools = require ('../tools/slack-tools ');` to require in the new file. 
+10. Still in `slack.js`,  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODIwNTU5MSwtMTUxMjQ0NTYyMywxOD
-EzMzQ5MjYsLTE2MjgzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2
-MzQ1OSwxMDg3ODU1MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LD
-E3Mzg3OTc2MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQx
-MTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNz
-FdfQ==
+eyJoaXN0b3J5IjpbNDYxODUzMDU2LC0xNTEyNDQ1NjIzLDE4MT
+MzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYz
+NDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMT
+czODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDEx
+OTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV
+19
 -->
