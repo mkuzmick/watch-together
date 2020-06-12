@@ -89,12 +89,12 @@ module.exports = router;
 23. Next, go to your `app.js` file in Atom. You need to use the `.env` module in this file as high up in the file as you can. After `var slackRouter = require('./routes/slack');`, hit enter a few times. Type ``require(`dotenv`).config();``. Hit save.
 24. Now it needs to be installed in terminal. First make sure you are in the correct folder (`watch-together`). Then, type in `npm i dotenv`. Hit enter.
 25. Open up `http://localhost:3000/slack/word/testing` and hit refresh. A slack message saying "my word is testing" should have just been received. 
-26. If you change the URL slightly to `http://localhost:3000/slack/word/testing-again` and hit enter, a new slack message should come through that says "my word is testing-again". This is useful because you can be putting in names!
+26. If you change the URL slightly to `http://localhost:3000/slack/word/testing-again` and hit enter, a new slack message should come through that says "my word is testing-again". This is useful because you can be putting in names! You would probably never want to slack a channel any time anyone reloads a website, but the basic principle is that your app can know something, and then it can go in and tell slack about it.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE5ODI0NjIsMTgxMzM0OTI2LC0xNj
+eyJoaXN0b3J5IjpbLTE1MTI0NDU2MjMsMTgxMzM0OTI2LC0xNj
 I4Mzg4ODA0LC0xMTE0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1
 NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC
 0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkz
