@@ -54,17 +54,19 @@ const webhook = new IncomingWebhook(url);
 `const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and paste it in a new line after the first `{` in the `router.get('/word/:myword'` section, creating it when this function gets fired.
 
 ### To send a notification:
-14. Back in your internet browser, look for the heading "Send a notification". Copy the code under the smaller, grayed out heading `// Send the notification`. ```
-``(async () => {
+14. Back in your internet browser, look for the heading "Send a notification". Under the smaller, grayed out heading `// Send the notification`, copy the code:
+
+```(async () => {
   await webhook.send({
     text: 'I\'ve got news for you...',
   });
 })();``
 
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDcwNzYwNzQsMTMxNjQ2MzQ1OSwxMD
+eyJoaXN0b3J5IjpbLTE3NzA4Mzk4ODYsMTMxNjQ2MzQ1OSwxMD
 g3ODU1MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2
 MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNj
 A3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
