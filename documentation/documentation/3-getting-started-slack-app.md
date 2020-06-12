@@ -131,14 +131,15 @@ async function sendMyMessage (word) {
 19. In Atom, open up you `.env` and copy the code. Paste it in terminal. Hit enter. That should set it and restart it.
 20. Reload `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku`. Now that should work - a slack should have just gone through. 
 
-So now anyone can go to that URL and it will fire something off that hits our app-tests slack channel! We've learned how to connect our express app to our slack, and how to get that up on the internet. So now any information coming to our sever, which is up on the internet, can get sent to our slack channel. And that's pretty powerful, there's alot of stuff we'll be able to do with that.
+So now anyone can go to that URL and it will fire something off that hits our app-tests slack channel! We've learned how to connect our express app to our slack, and how to get that up on the internet. So now any information coming to our sever, which is up on the internet, can get sent to our slack channel. And that's pretty powerful, there's a lot of stuff we'll be able to do with that.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NDE3MzExLC00NzczOTc1NjksLTkwNj
-g5ODAxMCw1NzEyODY3ODgsLTE1MTI0NDU2MjMsMTgxMzM0OTI2
-LC0xNjI4Mzg4ODA0LC0xMTE0NzA4MzYyLDEzMTY0NjM0NTksMT
-A4Nzg1NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3
-NjEwLC0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMT
-YwNzkzNzk3MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbNjc5MjQ4NDUxLDQ0NTQxNzMxMSwtNDc3Mz
+k3NTY5LC05MDY4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIz
+LDE4MTMzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMz
+E2NDYzNDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4
+MTksMTczODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOT
+kwNDExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIz
+NzE3MV19
 -->
