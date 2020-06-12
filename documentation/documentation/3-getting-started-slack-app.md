@@ -83,13 +83,13 @@ module.exports = router;
 
 ```
 19. Open up `http://localhost:3000/slack/word/testing` in your internet browser. 
-20. **not sure where we should put this, since we are just doing this step now but i know it should come earlier!** In Atom, create a file in your main watch-together folder called `.env`. Type in 
+20. **not sure where we should put this, since we are just doing this step now but i know it should come earlier!** In Atom, create a file in your main watch-together folder called `.env`. Type in `SLACK_WEBHOOK_URL=`. To find out what else needs to go into this file, go back to [Slack API's "Incoming Webhooks" page](https://api.slack.com/apps/A014LR198AK/incoming-webhooks?success=1). At the bottom of this page, copy the webhook URL. Hit save.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDUzNjMwLDE4MTMzNDkyNiwtMTYyOD
+eyJoaXN0b3J5IjpbLTk5MDI0NTU3LDE4MTMzNDkyNiwtMTYyOD
 M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
 NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
 U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
