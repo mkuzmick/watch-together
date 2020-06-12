@@ -83,14 +83,13 @@ module.exports = router;
 
 ```
 19. Open up `http://localhost:3000/slack/word/testing` in your internet browser. 
-20. **not sure where we should put this, since we are just doing this step now but i kn
-
+20. **not sure where we should put this, since we are just doing this step now but i know it should come earlier!** In Atom, create a file in your main watch-together folder called `.env`. Type in 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEyNzU4LDE4MTMzNDkyNiwtMTYyOD
+eyJoaXN0b3J5IjpbLTM5NDUzNjMwLDE4MTMzNDkyNiwtMTYyOD
 M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
 NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
 U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
