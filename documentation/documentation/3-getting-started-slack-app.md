@@ -128,10 +128,12 @@ async function sendMyMessage (word) {
 ***Not sure where to put this, but "dotenv" is a strategy that we use only for the local development server. When this is running on heroku, we actually define the environment variables on heroku directly. To do this:
 18. In terminal,  while in the folder that the app is in (`watch-together`), type in `heroku config:add `. Don't hit enter yet.
 19. In Atom, open up you `.env` and copy the code. Paste it in terminal. Hit enter. That should set it and restart it.
-20. Reload `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku`. Now that should work - a slack should have just gone through.
+20. Reload `https://bok-watch-together.herokuapp.com/slack/word/test-from-heroku`. Now that should work - a slack should have just gone through. 
+
+So now anyone can go to that URL and it will fire something off that hits our app-tests slack channel! We've learned how to connect our express app to our slack, and how to get that up on the internet. So now any information 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUzMTM1OCwtNDc3Mzk3NTY5LC05MD
+eyJoaXN0b3J5IjpbMTI0NDM3NjUzMSwtNDc3Mzk3NTY5LC05MD
 Y4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIzLDE4MTMzNDky
 NiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LD
 EwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5
