@@ -111,15 +111,16 @@ async function sendMyMessage (word) {
 }
 ```
 4. Right click the name of your new file (`slack-tools.js`) and select "Split Down" to be able to view both files, one on top of the other.
-5. Paste the copied code into `slack-tools.js`.
+5. Paste the copied code into `slack-tools.js`. Put your cursor to before the first letter of the code and hit enter a couple times to give yourself more space.
+6. Type in `const SendMyMessa
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0NDE3NTUwLC0xNTEyNDQ1NjIzLDE4MT
-MzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYz
-NDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMT
-czODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDEx
-OTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV
-19
+eyJoaXN0b3J5IjpbLTEyNjU2NzA5NTIsLTE1MTI0NDU2MjMsMT
+gxMzM0OTI2LC0xNjI4Mzg4ODA0LC0xMTE0NzA4MzYyLDEzMTY0
+NjM0NTksMTA4Nzg1NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOS
+wxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0
+MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1MjA0MSwxNzYwMjM3MT
+cxXX0=
 -->
