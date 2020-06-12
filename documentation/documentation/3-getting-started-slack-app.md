@@ -57,17 +57,19 @@ const webhook = new IncomingWebhook(url);
 14. Back in your internet browser, look for the heading "Send a notification". Under the smaller, grayed out heading `// Send the notification`, copy the code that begins with 
 `(async`.
 15. Navigate back to `slack.js` in Atom.  Hit enter a few times at the beginning of the last line of code to make space around line 18. Type in the code `async function sendMyMessage (word) { }`. Hit enter a few times before the last `}` to free up space and then paste the copied code inside there.
-16.  For webhook to be in scope **<--I don't know what that means!**, cut `const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and paste it in a line after `async function sendMyMessage (word) {`.
+16.  For webhook to be in scope **<--I don't know what that means!**, cut `const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and paste it in a line after `async function sendMyMessage (word) {`. 
+17. From where you cut `const webhook`, replace that with `sendMyMessage(req.params.myword)`.
+18. 
 
 The final code should look like: 
 ```
 async function sendMyMessage (word) {
-	const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);
-	(async () => {
+  const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);
+  (async () => {
       await webhook.send({
         text: 'I\'ve got news for you...',
-	      });
-	    })();
+      });
+    })();
 }
 ```
 
@@ -79,9 +81,9 @@ async function sendMyMessage (word) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NTMzMjgsMTgxMzM0OTI2LC0xNjI4Mz
-g4ODA0LC0xMTE0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1NTE0
-MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC0xNT
-U1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3
-MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
+eyJoaXN0b3J5IjpbMTA1NzUyMzkxNCwxODEzMzQ5MjYsLTE2Mj
+gzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2MzQ1OSwxMDg3ODU1
+MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLT
+E1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3
+OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
 -->
