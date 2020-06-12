@@ -53,11 +53,15 @@ const webhook = new IncomingWebhook(url);
 13. Delete the second line of `const` code. Now grab the newly formulated line of code
 `const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and paste it in a new line after the first `{` in the `router.get('/word/:myword'` section, creating it when this function gets fired.
 
+### To send a notification:
+14. Go back to your internet browser and now grab the third line of code underneath the heading "Initialize the webhook." The third line of code is under the grayed out heading "// Initialize" : `
+const webhook = new IncomingWebhook(url);
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjQ2MzQ1OSwxMDg3ODU1MTQxLC0xOD
-gwOTc0MCwxMDA5NTg4ODE5LDE3Mzg3OTc2MTAsLTE1NTU2NDU1
-MjcsNzQ4NDU1NTUxLDk5MDQxMTk4LC0xNjA3OTM3OTcyLC0xMz
-U2ODUyMDQxLDE3NjAyMzcxNzFdfQ==
+eyJoaXN0b3J5IjpbLTQxMTcyNDkyMCwxMzE2NDYzNDU5LDEwOD
+c4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYx
+MCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MD
+c5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
 -->
