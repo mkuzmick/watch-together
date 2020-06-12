@@ -59,7 +59,7 @@ const webhook = new IncomingWebhook(url);
 15. Navigate back to `slack.js` in Atom.  Hit enter a few times at the beginning of the last line of code to make space around line 18. Type in the code `async function sendMyMessage (word) { }`. Hit enter a few times before the last `}` to free up space and then paste the copied code inside there.
 16.  For webhook to be in scope **<--I don't know what that means!**, cut `const webhook = new IncomingWebhook(process.env.SLACK_WEBHOOK_URL);` and paste it in a line after `async function sendMyMessage (word) {`. 
 17. From where you cut `const webhook`, replace that with `sendMyMessage(req.params.myword)`.
-18. Down where the value of `text` is `'I\'ve got news for you...',`, change the value to `my word is ${word}`. Make sure this code is backticks, and not single quotes.
+18. Down where the value of `text` is `'I\'ve got news for you...',`, change the value to `my word is ${word}`. Make sure this code is backticks, and not single quotes. Hit save.
 
 The final code of the second half of `slack.js` should look like: 
 ```
@@ -82,18 +82,17 @@ async function sendMyMessage (word) {
 module.exports = router;
 
 ```
-
-17.  
-18. 
+19. 
+20.
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNDkwNzU5LDE4MTMzNDkyNiwtMTYyOD
-M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
-NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
-U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
-NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV19
+eyJoaXN0b3J5IjpbLTEwNzA4MDc3MzYsMTgxMzM0OTI2LC0xNj
+I4Mzg4ODA0LC0xMTE0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1
+NTE0MSwtMTg4MDk3NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC
+0xNTU1NjQ1NTI3LDc0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkz
+Nzk3MiwtMTM1Njg1MjA0MSwxNzYwMjM3MTcxXX0=
 -->
