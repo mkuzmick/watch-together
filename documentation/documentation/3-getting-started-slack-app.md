@@ -93,15 +93,15 @@ module.exports = router;
 
 This is useful because you can be putting in names! You would probably never want to slack a channel any time anyone reloads a website, but the basic principle is that your app can know something, and then it can go in and tell slack about it.
 
-: So this is the most basic way of connecting our slack to our express app, and that's with webhooks. We did that by using the slack webhook module.
+So this is the most basic way of connecting our slack to our express app, and that's with webhooks. We did that by using the slack webhook module. If we want to do a lot of different things with slack, we might want to create a kind of utilities folder that performs different ss of operations for us.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MTQxNzI0LC0xNTEyNDQ1NjIzLDE4MT
-MzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYz
-NDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMT
-czODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDEx
-OTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIzNzE3MV
-19
+eyJoaXN0b3J5IjpbMTE4NTI0NzMyOCwtMTUxMjQ0NTYyMywxOD
+EzMzQ5MjYsLTE2MjgzODg4MDQsLTExMTQ3MDgzNjIsMTMxNjQ2
+MzQ1OSwxMDg3ODU1MTQxLC0xODgwOTc0MCwxMDA5NTg4ODE5LD
+E3Mzg3OTc2MTAsLTE1NTU2NDU1MjcsNzQ4NDU1NTUxLDk5MDQx
+MTk4LC0xNjA3OTM3OTcyLC0xMzU2ODUyMDQxLDE3NjAyMzcxNz
+FdfQ==
 -->
