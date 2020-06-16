@@ -73,5 +73,36 @@ But there is a service that can act as a intermediary for us, receiving messages
     ```
 4. now you'll need to commit your changes and push them to heroku if you went that route, but if you're using ngrok you SHOULD be able to try the url again in the on the Slack Event Subscriptions page and get it to work.
 5. now subscribe to a couple of events--in bot events, for instance, you might subscribe to `reaction_added` and `message.im`. Once you do this, you SHOULD see news of these events in your server logs (if you're using heroku, you'll need to enter `heroku logs --tail`). Go ahead and give this a test by adding your bot to a channel and then emoji-ing some messages, or DMing your bot. You should see the json for the Slack Event in your terminal, and you may get some good ideas about how you can use the data there in your app.
+6. Slack also provides an npm package for events, and it actually takes care of verifying that the requests you receive are actually coming from slack (we'll have to do that manually when we write our slash command). To use this package, install it with `npm i @slack/events-api`.
+7. then we are going to add a new route to our `app.js` file, but what's weird is that we need to add it ABOVE all the other `app.use` lines (because slack wants the raw rather than parsed requests, precisely for that verification step mentioned in the last step--if you are really interested, you'll have a chance to learn more later, when we'll need to UNparse the requests that hit some of our other routes). So above all of the `app.use` lines, add
+    ```
+    var slackEventsRouter = require('./routes/slack-events')
+    app.use('/slack-events', slackEventsRouter);
+    ```
+8. then you'll need to create the file `/routes/slack-events.js` and add in the following code:
+    ```
+    var express = require('express');
+    var router = express.Router();
+    const { createEventAdapter } = require('@slack/events-api');
+    const slackSigningSecret = process.env.SLACK_SIGNING_SECRET;
+    const slackEvents = createEventAdapter(slackSigningSecret);
 
-### 
+    router.post('/', slackEvents.requestListener());
+
+    slackEvents.on('message', (event)=>{
+      console.log(`Received event: \n\n${JSON.stringify(event, null, 4)}\n\n`);
+    })
+
+    slackEvents.on('reaction_added', (event)=>{
+      console.log(`Received event: \n\n${JSON.stringify(event, null, 4)}\n\n`);
+    })
+
+    module.exports = router;
+    ```
+9. now you'll need to go back to the Events page in the api.slack.com interface for your app and redirect events to the `/slack-events` route. You should now see server logs when you perform the events you're listening for. (NOTE: let's JUST do the version with the `@slack/events-api` package--the false start is lame.)
+
+## CREATING A SLASH COMMAND
+
+NOTE: This may ultimately come BEFORE the preceding. 
+
+Now that we have the Web API and Events set up.
