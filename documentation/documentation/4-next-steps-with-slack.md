@@ -1,3 +1,8 @@
+this has been edited
+
+let's see if we can collaborate
+collaboration is magical!
+
 # NEXT STEPS WITH SLACK
 
 these are notes from MK in lieu of a video tutorial because I can't record right now, but do want to do a couple of things to the app.
