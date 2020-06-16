@@ -1,3 +1,6 @@
+i'm changing this from within Stackedit.io
+
+
 # NEXT STEPS WITH SLACK
 
 these are notes from MK in lieu of a video tutorial because I can't record right now, but do want to do a couple of things to the app.
@@ -105,4 +108,11 @@ But there is a service that can act as a intermediary for us, receiving messages
 
 NOTE: This may ultimately come BEFORE the preceding. 
 
+<<<<<<< HEAD
 Now that we have the Web API and Events set up.
+=======
+### 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI5MTI2MDQyMF19
+-->
+>>>>>>> 54f769acb0fef168dcf5b06627b147b2be2f4cd6
