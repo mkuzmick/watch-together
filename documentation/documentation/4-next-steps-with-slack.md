@@ -1,3 +1,6 @@
+i'm changing this from within Stackedit.io
+
+
 # NEXT STEPS WITH SLACK
 
 these are notes from MK in lieu of a video tutorial because I can't record right now, but do want to do a couple of things to the app.
@@ -75,3 +78,6 @@ But there is a service that can act as a intermediary for us, receiving messages
 5. now subscribe to a couple of events--in bot events, for instance, you might subscribe to `reaction_added` and `message.im`. Once you do this, you SHOULD see news of these events in your server logs (if you're using heroku, you'll need to enter `heroku logs --tail`). Go ahead and give this a test by adding your bot to a channel and then emoji-ing some messages, or DMing your bot. You should see the json for the Slack Event in your terminal, and you may get some good ideas about how you can use the data there in your app.
 
 ### 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI5MTI2MDQyMF19
+-->
