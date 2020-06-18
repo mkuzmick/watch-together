@@ -13,7 +13,7 @@ everything here can also be learned by systematically going through the [node sl
 1. click the "OAuth & Permissions" tab on the left of the api page (having logged in and selected your app).
 2. copy the Bot User OAuth Access Token and add it to your `.env` file. You can use whatever variable name you like, as long as you remember to reuse it when you need it. We are going to enter `SLACK_BOT_TOKEN=xoxb-XXXXXXXXX-XXXXXXXXXXXXX-XXXXXXXXXXXXXXX`.
 3. under "Scopes" you will enable your app to perform a variety of actions. For this tutorial, click "add OAuth scope" under the first heading "Bot Token Scopes" and be sure to enable `chat:write` and `reactions:read` and `channels:history`. In general, you want to request the narrowest set of scopes you can, because this obviously safe than permitting your app to do anything and everything to your users' slack.
-4. you'll then need to reinstall the app to the development slack space . . . go ahead and do that, and choose a channel you want the app to be able to post to (it still prompts you to do this even if you've selected one previously--you can select the same channel again
+4. you'll then need to reinstall the app to the development slack space. there should be a pop-up on the top of the screen letting you know you need to reinstall - click that. choose a channel you want the app to be able to post to (it still prompts you to do this even if you've selected one previously--you can select the same channel again
 5. while you're working with your .env file, you could go ahead and add the other secret keys from the basic information page to your .env file (SLACK_SIGNING_SECRET, etc).  We'll mention each as it becomes relevant, so you'll get another shot at each if you don't do it now.
 
 
@@ -106,5 +106,6 @@ eyJoaXN0b3J5IjpbLTI5MTI2MDQyMF19
 -->
 >>>>>>> 54f769acb0fef168dcf5b06627b147b2be2f4cd6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTI4MDg5MywtMjEyMTc0OTgwNV19
+eyJoaXN0b3J5IjpbNTY0NTI0NTg0LC0zNTEyODA4OTMsLTIxMj
+E3NDk4MDVdfQ==
 -->
