@@ -34,7 +34,7 @@
 3. Click "Incoming Webhooks" in the left menu. 
 4. Copy the "Installation" code `
 npm install @slack/webhook
-` to install the npm package. Note: do not copy the `$` - just copy the code that is after that. **marlon, the code on this page starts with a "$" why do we not copy that?**
+` to install the npm package. Note: do not copy the `$` - just copy the code that is after that. 
 5. Navigate back to terminal and make sure you are in the `watch-together` folder. Paste the copied code and hit enter.
 6. Go back to the "Incoming Webhooks" page in your internet browser. Look at the code under the heading "Initialize the webhook". Copy the second line of code that starts with `const` ( `
 const url = process.env.SLACK_WEBHOOK_URL;
@@ -134,11 +134,11 @@ So now anyone can go to that URL and it will fire something off that hits our ap
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDEyOTM4NzAsNjc5MjQ4NDUxLDQ0NT
-QxNzMxMSwtNDc3Mzk3NTY5LC05MDY4OTgwMTAsNTcxMjg2Nzg4
-LC0xNTEyNDQ1NjIzLDE4MTMzNDkyNiwtMTYyODM4ODgwNCwtMT
-ExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUxNDEsLTE4ODA5
-NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMTU1NTY0NTUyNy
-w3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4
-NTIwNDFdfQ==
+eyJoaXN0b3J5IjpbLTYxNzMzMjY1Niw2NzkyNDg0NTEsNDQ1ND
+E3MzExLC00NzczOTc1NjksLTkwNjg5ODAxMCw1NzEyODY3ODgs
+LTE1MTI0NDU2MjMsMTgxMzM0OTI2LC0xNjI4Mzg4ODA0LC0xMT
+E0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1NTE0MSwtMTg4MDk3
+NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LD
+c0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1
+MjA0MV19
 -->
