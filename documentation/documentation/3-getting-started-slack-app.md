@@ -20,10 +20,9 @@
 
 1. Still in your internet browser where you app was just created, click "Incoming Webhooks" in the left menu.
 2. Click where it says "Off" in gray to make it says "On" in green.
-3. Scroll down and copy the code `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE`. ***Marlon you highlighted this but it didn't look like you copied this. I'm not exactly sure what this code does or what I should note here.***
 4. Click the bottom button that says "Add New Webhook to Workspace".
 5. Next, you will be asked in which channel should your app post to. You can select the `#app-tests` channel.
-6. Now, copy the code underneath the header that reads "Sample curl request to post to a channel." 
+6. Now, copy the code underneath the header that reads "Sample curl request to post to a channel." It will look something like  `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE`.
 7. Navigate to terminal. Open a new window (command+N) and paste the code here. Hit enter.
 8. Open the `#app-tests` channel in the Learning Lab Development slack. You should see a "Hello, World!" message from your app!
 
@@ -135,11 +134,11 @@ So now anyone can go to that URL and it will fire something off that hits our ap
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MjQ4NDUxLDQ0NTQxNzMxMSwtNDc3Mz
-k3NTY5LC05MDY4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIz
-LDE4MTMzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMz
-E2NDYzNDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4
-MTksMTczODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOT
-kwNDExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIz
-NzE3MV19
+eyJoaXN0b3J5IjpbLTExMDEyOTM4NzAsNjc5MjQ4NDUxLDQ0NT
+QxNzMxMSwtNDc3Mzk3NTY5LC05MDY4OTgwMTAsNTcxMjg2Nzg4
+LC0xNTEyNDQ1NjIzLDE4MTMzNDkyNiwtMTYyODM4ODgwNCwtMT
+ExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUxNDEsLTE4ODA5
+NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMTU1NTY0NTUyNy
+w3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4
+NTIwNDFdfQ==
 -->
