@@ -38,7 +38,7 @@ npm install @slack/webhook
 5. Navigate back to terminal and make sure you are in the `watch-together` folder. Paste the copied code and hit enter.
 6. Go back to the "Incoming Webhooks" page in your internet browser. Look at the code under the heading "Initialize the webhook". Copy the second line of code that starts with `const` ( `
 const url = process.env.SLACK_WEBHOOK_URL;
-`).  We're going to use this in whatever file we are going to use to send **stuff** back.
+`).  We're going to use this in whatever file we are going to use to send things to slack.
 7. Now, go back to Atom and open `slack.js`. Hit enter twice after the second line of code on the very top of the page, and paste the line of copied code. Hit enter again a few times to leave a couple empty lines. Hit save.
 8. Navigate back to your internet browser and copy the first line of code underneath the heading "Initialize the webhook". The copied code should be `
 const { IncomingWebhook } = require('@slack/webhook');
@@ -134,11 +134,11 @@ So now anyone can go to that URL and it will fire something off that hits our ap
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzMzMjY1Niw2NzkyNDg0NTEsNDQ1ND
-E3MzExLC00NzczOTc1NjksLTkwNjg5ODAxMCw1NzEyODY3ODgs
-LTE1MTI0NDU2MjMsMTgxMzM0OTI2LC0xNjI4Mzg4ODA0LC0xMT
-E0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1NTE0MSwtMTg4MDk3
-NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LD
-c0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1
-MjA0MV19
+eyJoaXN0b3J5IjpbMzIwODY4ODIzLC02MTczMzI2NTYsNjc5Mj
+Q4NDUxLDQ0NTQxNzMxMSwtNDc3Mzk3NTY5LC05MDY4OTgwMTAs
+NTcxMjg2Nzg4LC0xNTEyNDQ1NjIzLDE4MTMzNDkyNiwtMTYyOD
+M4ODgwNCwtMTExNDcwODM2MiwxMzE2NDYzNDU5LDEwODc4NTUx
+NDEsLTE4ODA5NzQwLDEwMDk1ODg4MTksMTczODc5NzYxMCwtMT
+U1NTY0NTUyNyw3NDg0NTU1NTEsOTkwNDExOTgsLTE2MDc5Mzc5
+NzJdfQ==
 -->
