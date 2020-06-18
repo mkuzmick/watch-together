@@ -12,8 +12,8 @@ everything here can also be learned by systematically going through the [node sl
 
 1. click the "OAuth & Permissions" tab on the left of the api page (having logged in and selected your app).
 2. copy the Bot User OAuth Access Token and add it to your `.env` file. You can use whatever variable name you like, as long as you remember to reuse it when you need it. We are going to enter `SLACK_BOT_TOKEN=xoxb-XXXXXXXXX-XXXXXXXXXXXXX-XXXXXXXXXXXXXXX`.
-3. under "Scopes" you will enable your app to perform a variety of actions. For this tutorial, click "add OAuth scope" and be sure to enable `chat:write` and `reactions:read` and `channels:history`. In general, you want to request the narrowest set of scopes you can, because this obviously safe than permitting your app to do anything and everything to your users' slack.
-4. you'll then need to reinstall the app to the development slack space . . . go ahead and do that, and choose a channel you want the app to be able to post to (it still prompts you to do this even if you've selected one previously--you can select the same channel again
+3. under "Scopes" you will enable your app to perform a variety of actions. For this tutorial, click "add OAuth scope" under the first heading "Bot Token Scopes" and be sure to enable `chat:write` and `reactions:read` and `channels:history` and `channels:read`. In general, you want to request the narrowest set of scopes you can, because this obviously safe than permitting your app to do anything and everything to your users' slack.
+4. you'll then need to reinstall the app to the development slack space. there should be a pop-up on the top of the screen letting you know you need to reinstall - click that. choose a channel you want the app to be able to post to (it still prompts you to do this even if you've selected one previously--you can select the same channel again
 5. while you're working with your .env file, you could go ahead and add the other secret keys from the basic information page to your .env file (SLACK_SIGNING_SECRET, etc).  We'll mention each as it becomes relevant, so you'll get another shot at each if you don't do it now.
 
 
@@ -27,7 +27,7 @@ The webhook you used earlier in this tutorial is great for sending a message to 
     const { WebClient } = require('@slack/web-api');
     const web = new WebClient(process.env.SLACK_BOT_TOKEN);
     ```
-    if you are continuing on from the earlier tutorials, we'll be putting this at the top of the file that holds all our slack routes (`/routes/slack.js`).
+    if you are continuing on from the earlier tutorials, we'll be putting this at the top of the file that holds all our slack routes (`/routes/slack.js`). **Note**: make sure that you are configuring your environment variables with dotenv BEFORE you require the routes that reference those environment variables - check this out in `/app.js`.
 3. then let's add a new route and call a method. You should really try a bunch of them, but to get us started let's list all the channels our bot has access to at `/slack/channels`. In `slack.js` add a new route like so
     ```
     router.get('/channels', async function(req, res, next){
@@ -37,8 +37,6 @@ The webhook you used earlier in this tutorial is great for sending a message to 
     ```
     The `async function` lets you use `await` rather than the callbacks that have been more typical of node code in the past. When you go to `https://localhost:3000/slack/channels` you should now see a bunch of json with your channels in it.
 4. choose another method of the web api (they're all [here](https://api.slack.com/methods)) and write another route for it. Just make sure that you've asked for all the relevant scopes you need in the OAuth & Permissions section.
-
-**note: you'll need to make sure that you are configuring your environment variables with dotenv BEFORE you require the routes that reference those environment variables**
 
 
 
@@ -100,3 +98,15 @@ NOTE: This may ultimately come BEFORE the preceding.
 <<<<<<< HEAD
 Now that we have the Web API and Events set up.
 =======
+<<<<<<< HEAD
+=======
+### 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI5MTI2MDQyMF19
+-->
+>>>>>>> 54f769acb0fef168dcf5b06627b147b2be2f4cd6
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTUxNDYwMzU1Nyw1NjQ1MjQ1ODQsLTM1MT
+I4MDg5MywtMjEyMTc0OTgwNV19
+-->
+>>>>>>> 68806180c587ff61e3a1e657014cc05370cd077f
