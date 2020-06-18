@@ -27,7 +27,7 @@ The webhook you used earlier in this tutorial is great for sending a message to 
     const { WebClient } = require('@slack/web-api');
     const web = new WebClient(process.env.SLACK_BOT_TOKEN);
     ```
-    if you are continuing on from the earlier tutorials, we'll be putting this at the top of the file that holds all our slack routes (`/routes/slack.js`).
+    if you are continuing on from the earlier tutorials, we'll be putting this at the top of the file that holds all our slack routes (`/routes/slack.js`). Note: you want to make sure that 
 3. then let's add a new route and call a method. You should really try a bunch of them, but to get us started let's list all the channels our bot has access to at `/slack/channels`. In `slack.js` add a new route like so
     ```
     router.get('/channels', async function(req, res, next){
@@ -106,6 +106,6 @@ eyJoaXN0b3J5IjpbLTI5MTI2MDQyMF19
 -->
 >>>>>>> 54f769acb0fef168dcf5b06627b147b2be2f4cd6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTYzOTk5OSw1NjQ1MjQ1ODQsLTM1MT
+eyJoaXN0b3J5IjpbMTU4MDcxNjM5Nyw1NjQ1MjQ1ODQsLTM1MT
 I4MDg5MywtMjEyMTc0OTgwNV19
 -->
