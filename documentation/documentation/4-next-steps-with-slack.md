@@ -62,18 +62,7 @@ But there is a service that can act as a intermediary for us, receiving messages
 
 1. enable events by clicking the "on/off" button on the "Event Subscriptions" page of the API
 2. for your "Request URL", use either the URL for your heroku app OR the ngrok URL you got if you chose to go that route, then add a path that corresponds to the code you'll write in your express app.  Something like `https://my-app.herokuapp.com/slack/events` would make sense (or `https://g9z123407gh5.ngrok.io/slack/events`).
-3. now before the link will work, you'll have to write a route that sends slack back the "challenge" that it's send you. So create a new route in your `slack.js` file with the following code:
-    ```
-    router.post('/events', function(req, res, next) {
-      if (req.body.challenge) {
-        console.log("got your challenge, Slack, going to send it back");
-        res.send(req.body.challenge);
-      } else {
-        console.log(`got an event: \n${JSON.stringify(req.body, null, 4)}`);
-        res.status(200).send();
-      }
-    });
-    ```
+
 4. now you'll need to commit your changes and push them to heroku if you went that route, but if you're using ngrok you SHOULD be able to try the url again in the on the Slack Event Subscriptions page and get it to work.
 5. now subscribe to a couple of events--in bot events, for instance, you might subscribe to `reaction_added` and `message.im`. Once you do this, you SHOULD see news of these events in your server logs (if you're using heroku, you'll need to enter `heroku logs --tail`). Go ahead and give this a test by adding your bot to a channel and then emoji-ing some messages, or DMing your bot. You should see the json for the Slack Event in your terminal, and you may get some good ideas about how you can use the data there in your app.
 6. Slack also provides an npm package for events, and it actually takes care of verifying that the requests you receive are actually coming from slack (we'll have to do that manually when we write our slash command). To use this package, install it with `npm i @slack/events-api`.
