@@ -95,8 +95,16 @@ But there is a service that can act as a intermediary for us, receiving messages
 
 ## CREATING A SLASH COMMAND
 
-NOTE: This may ultimately come BEFORE the preceding.
+NOTE: This may ultimately come BEFORE the preceding. 
 
 <<<<<<< HEAD
 Now that we have the Web API and Events set up.
 =======
+### 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI5MTI2MDQyMF19
+-->
+>>>>>>> 54f769acb0fef168dcf5b06627b147b2be2f4cd6
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxMjE3NDk4MDVdfQ==
+-->

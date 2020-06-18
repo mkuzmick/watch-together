@@ -20,10 +20,9 @@
 
 1. Still in your internet browser where you app was just created, click "Incoming Webhooks" in the left menu.
 2. Click where it says "Off" in gray to make it says "On" in green.
-3. Scroll down and copy the code `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE`. ***Marlon you highlighted this but it didn't look like you copied this. I'm not exactly sure what this code does or what I should note here.***
 4. Click the bottom button that says "Add New Webhook to Workspace".
 5. Next, you will be asked in which channel should your app post to. You can select the `#app-tests` channel.
-6. Now, copy the code underneath the header that reads "Sample curl request to post to a channel." 
+6. Now, copy the code underneath the header that reads "Sample curl request to post to a channel." It will look something like  `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE`.
 7. Navigate to terminal. Open a new window (command+N) and paste the code here. Hit enter.
 8. Open the `#app-tests` channel in the Learning Lab Development slack. You should see a "Hello, World!" message from your app!
 
@@ -35,7 +34,7 @@
 3. Click "Incoming Webhooks" in the left menu. 
 4. Copy the "Installation" code `
 npm install @slack/webhook
-` to install the npm package. Note: do not copy the `$` - just copy the code that is after that. **marlon, the code on this page starts with a "$" why do we not copy that?**
+` to install the npm package. Note: do not copy the `$` - just copy the code that is after that. 
 5. Navigate back to terminal and make sure you are in the `watch-together` folder. Paste the copied code and hit enter.
 6. Go back to the "Incoming Webhooks" page in your internet browser. Look at the code under the heading "Initialize the webhook". Copy the second line of code that starts with `const` ( `
 const url = process.env.SLACK_WEBHOOK_URL;
@@ -135,11 +134,11 @@ So now anyone can go to that URL and it will fire something off that hits our ap
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MjQ4NDUxLDQ0NTQxNzMxMSwtNDc3Mz
-k3NTY5LC05MDY4OTgwMTAsNTcxMjg2Nzg4LC0xNTEyNDQ1NjIz
-LDE4MTMzNDkyNiwtMTYyODM4ODgwNCwtMTExNDcwODM2MiwxMz
-E2NDYzNDU5LDEwODc4NTUxNDEsLTE4ODA5NzQwLDEwMDk1ODg4
-MTksMTczODc5NzYxMCwtMTU1NTY0NTUyNyw3NDg0NTU1NTEsOT
-kwNDExOTgsLTE2MDc5Mzc5NzIsLTEzNTY4NTIwNDEsMTc2MDIz
-NzE3MV19
+eyJoaXN0b3J5IjpbLTYxNzMzMjY1Niw2NzkyNDg0NTEsNDQ1ND
+E3MzExLC00NzczOTc1NjksLTkwNjg5ODAxMCw1NzEyODY3ODgs
+LTE1MTI0NDU2MjMsMTgxMzM0OTI2LC0xNjI4Mzg4ODA0LC0xMT
+E0NzA4MzYyLDEzMTY0NjM0NTksMTA4Nzg1NTE0MSwtMTg4MDk3
+NDAsMTAwOTU4ODgxOSwxNzM4Nzk3NjEwLC0xNTU1NjQ1NTI3LD
+c0ODQ1NTU1MSw5OTA0MTE5OCwtMTYwNzkzNzk3MiwtMTM1Njg1
+MjA0MV19
 -->
