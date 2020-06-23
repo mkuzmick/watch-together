@@ -86,7 +86,7 @@ But there is a service that can act as a intermediary for us, receiving messages
     module.exports = router;
     ```
     1. now let's do what we need to do on the slack api interface side of things. First, enable events by clicking the "on/off" button on the "Event Subscriptions" page of the API
-    2. for your "Request URL", use either the URL for your heroku app OR the ngrok URL you got if you chose to go that route, then add a path that corresponds to the code you'll write in your express app.  Something like `https://my-app.herokuapp.com/slack/events` would make sense (or `https://g9z123407gh5.ngrok.io/slack/events`).
+    2. for your "Request URL", use either the URL for your heroku app OR the ngrok URL you got if you chose to go that route, then add a path that corresponds to the code you'll write in your express app.  Something like `https://my-app.herokuapp.com/slack-events` would make sense (or `https://g9z123407gh5.ngrok.io/slack-events`).
     3. now you'll need to commit your changes and push them to heroku if you went that route, but if you're using ngrok you SHOULD be able to try the url again in the on the Slack Event Subscriptions page and get it to work.
     5. now subscribe to a couple of events--in bot events, for instance, you might subscribe to `reaction_added` and `message.im`. Once you do this, you SHOULD see news of these events in your server logs (if you're using heroku, you'll need to enter `heroku logs --tail`). Go ahead and give this a test by adding your bot to a channel and then emoji-ing some messages, or DMing your bot. You should see the json for the Slack Event in your terminal, and you may get some good ideas about how you can use the data there in your app.
     6. now you'll need to go back to the Events page in the api.slack.com interface for your app and redirect events to the `/slack-events` route. You should now see server logs when you perform the events you're listening for. (NOTE: let's JUST do the version with the `@slack/events-api` package--the false start is lame.)
@@ -110,3 +110,6 @@ eyJoaXN0b3J5IjpbMTUxNDYwMzU1Nyw1NjQ1MjQ1ODQsLTM1MT
 I4MDg5MywtMjEyMTc0OTgwNV19
 -->
 >>>>>>> 68806180c587ff61e3a1e657014cc05370cd077f
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTAxMTkyMTkwXX0=
+-->
