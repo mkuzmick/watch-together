@@ -17,12 +17,14 @@
 
 ## airtable!
 2. go to airtable.com/api and select the watchTogether base. in the left column, under theMessages table, select "Create Records"
-3. first switch from `curl` to `JavaScript` in the right code area.check the box that says "show API key" so you can add the API information to your `.env` file in atom. you will need to format this information to match the format you already have there. for example: (`AIRTABLE_API_KEY=######` and
+3. first switch from `curl` to `JavaScript` in the right code area.
+4. next, check the box that says "show API key" so you can add the API information to your `.env` file in atom. you will need to format this information to match the format you already have there. for example: (`AIRTABLE_API_KEY=######` and
 `AIRTABLE_WATCHTOGETHER_BASE=######`, and of course replace the `#`s with the real information)
 5. create a new route called `airtable.js`. we copied the code from `users.js` and pasted in `airtable.js` just to have a place to start.
-6. go back to the the airtable api webpage on creating records and copy the 
+6. go back to the the airtable api webpage on creating records and copy everything from "Code" and stop just before "Output"
 7. 
+8. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0OTI0NTcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTc5MzE5Nzc2LDczMDk5ODExNl19
 -->
