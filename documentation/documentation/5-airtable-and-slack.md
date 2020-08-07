@@ -9,11 +9,14 @@
 
 ## slack!
 1. go to [https://api.slack.com/](https://api.slack.com/)
-2. 
+2. click "Your Apps" in the top right corner of the window
+3. select your watch-together app
+4. under "features" in the left column, select "Event Subscriptions"
+5. 
 ## airtable!
 2. go to airtable.com/api and select the watchTogether base. select the messages table
 3. create a new route called airtable.js
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTYxOTk4MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzc5MjYyMzQsNzMwOTk4MTE2XX0=
 -->
