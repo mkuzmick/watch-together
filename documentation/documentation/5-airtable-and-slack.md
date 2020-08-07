@@ -1,13 +1,18 @@
 ## getting back into things
 1. open your watch-together folder in terminal
-2. open a new terminal window so you can access ngrok (mine was stored in the tools folder)
+2. open atom
+3. open a new terminal window so you can access ngrok in the directory you put it in (mine was stored in the tools folder)
+
 ## ngrok!
-1. open ngrok in terminal and copy the link that starts with "https" (the "s" means it is secure)
+1. in the directory you put ngrok in, start it up by typing  `./ngrok http 3000` and hit enter
+2. copy the link that starts with "https" (the "s" means it is secure)
+3. 1.  `./ngrok http 3000`  (when in the directory you put your ngrok in)
+4.  make a note of the URL ngrok offers you so that you can add that on the slack API pages.
 
 ## airtable!
 2. go to airtable.com/api and select the watchTogether base. select the messages table
 3. create a new route called airtable.js
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ5MTk3NzksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTgyODU5NzA4OCw3MzA5OTgxMTZdfQ==
 -->
