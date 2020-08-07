@@ -13,11 +13,13 @@
 3. select your watch-together app
 4. under "features" in the left column, select "Event Subscriptions"
 5. click "change" to input your new ngrok link (since your old one expired) and then add the same ending to your new link ("/slack-events")
-6. click verify and it should say that it worked
+6. click verify and it should say that it worked. make sure you select "Save" at the bottom to save your changes
+
 ## airtable!
-2. go to airtable.com/api and select the watchTogether base. select the messages table
-3. create a new route called airtable.js
+2. go to airtable.com/api and select the watchTogether base. in the left column, under theMessages table, select "Create a Record"
+3. 
+4. create a new route called airtable.js
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjIxOTY3Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTYwMjcyNTYsNzMwOTk4MTE2XX0=
 -->
