@@ -25,9 +25,11 @@
 5. create a new route called `airtable.js`. we copied the code from `users.js` and pasted in `airtable.js` just to have a place to start.
 6. go back to the the airtable api webpage on creating records and copy everything from "Code" and stop just before "Output"
 7. paste the code into the bottom of `airtable.js` so you can work with it.
-8. 
+*not sure exactly how to go over what we did here or if we should paste the code we ended with?*
 ## slack-events.js
+1. open the route `slack-events.js`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ1NDMxNjIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTc2OTMzMTg4OSwtMTg0NDU0MzE2Miw3Mz
+A5OTgxMTZdfQ==
 -->
