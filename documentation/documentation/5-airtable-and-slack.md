@@ -5,14 +5,15 @@
 
 ## ngrok!
 1. in the directory you put ngrok in, start it up by typing  `./ngrok http 3000` and hit enter
-2. copy the link that starts with "https" (the "s" means it is secure)
-3. 1.  `./ngrok http 3000`  (when in the directory you put your ngrok in)
-4.  make a note of the URL ngrok offers you so that you can add that on the slack API pages.
+2. copy the link that starts with "https" (the "s" means it is secure) so that you can add that on the slack API pages.
 
+## slack!
+1. go to [https://api.slack.com/](https://api.slack.com/)
+2. 
 ## airtable!
 2. go to airtable.com/api and select the watchTogether base. select the messages table
 3. create a new route called airtable.js
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODU5NzA4OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU1OTYxOTk4MSw3MzA5OTgxMTZdfQ==
 -->
