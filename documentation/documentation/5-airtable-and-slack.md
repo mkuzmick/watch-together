@@ -27,9 +27,9 @@
 7. paste the code into the bottom of `airtable.js` so you can work with it.
 *not sure exactly how to go over what we did here or if we should paste the code we ended with?*
 ## slack-events.js
-1. open the route `slack-events.js`.
+1. open the route `slack-events.js`. in the messages slack event, add part of the code from `airtable.js` to create an airtable record using a slack DM to your bot.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTMzMTg4OSwtMTg0NDU0MzE2Miw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDkwMDE5MzY5LC0xODQ0NTQzMTYyLDczMD
+k5ODExNl19
 -->
