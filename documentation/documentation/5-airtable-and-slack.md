@@ -39,12 +39,21 @@
 7. now, go to [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx) and sign up to get a free API key from the open movie database. copy the API key you are emailed so you can add it to your `.env` file in atom. you will need to format this information to match the format you already have there (for example: `OMDB_API_KEY=######`). then save.
 8. in terminal, in your watch-together folder, type in `npm i axios` and hit enter to install axios.
 9. go to your `slack.js` file. require axios by adding `var axios = require('axios');` to the top of your file.
-10. go to [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios) and copy the `async` example code make some space for new code and add *not sure how to add the code here, all at once? was having issues with formatting*
-11. use [slack's block kit builder](https://app.slack.com/block-kit-builder) to get template code for formatting the response that your slash command prompts.
+10. go to [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios) and copy the `async` example code: 
+```async  function  getUser()  {
+ try  {
+ const  response  =  await  axios.get('/user?ID=12345');
+ console.log(response);
+ }  catch  (error)  {
+ console.error(error);
+ }
+```
+11. make some space for new code and add the above copied code and then start to edit. your end code *not sure how to add the code here, all at once? was having issues with formatting*
+12. use [slack's block kit builder](https://app.slack.com/block-kit-builder) to get template code for formatting the response that your slash command prompts.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MjA0ODc3LC0xNDM5NzQxOTYsLTEzOD
-kyMzY2NjIsMTI4ODM2NDcxMiwxNjIxMDcwNDk0LDQ5MDAxOTM2
-OSwtMTg0NDU0MzE2Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTc2OTI3NDc1OSwtMTQzOTc0MTk2LC0xMz
+g5MjM2NjYyLDEyODgzNjQ3MTIsMTYyMTA3MDQ5NCw0OTAwMTkz
+NjksLTE4NDQ1NDMxNjIsNzMwOTk4MTE2XX0=
 -->
