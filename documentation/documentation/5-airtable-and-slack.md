@@ -37,12 +37,47 @@
 5. click "Create New Command"
 6. fill in the first four boxes and then save. you will be prompted to reinstall your app so do that. (for request URL, we used on ngrok URL and just made sure the end of it was "/slack/watch" as that is what we are going to create in atom.)
 7. now, go to [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx) and sign up to get a free API key from the open movie database. copy the API key you are emailed so you can add it to your `.env` file in atom. you will need to format this information to match the format you already have there (for example: `OMDB_API_KEY=######`). then save.
-8. go to your `slack.js` file and make some space for new code.  `router.post('/watch', async function(req, res, next){`
+8. go to your `slack.js` file and make some space for new code.  
+```router.post('/watch', async function(req, res, next){
+    try {
+      const response = await axios.get(`http://www.omdbapi.com/?apikey=${process.env.OMDB_API_KEY}&t=${encodeURI(req.body.text)}`);
+      console.log(response);
+      // res.send(`got a slash request: ${JSON.stringify(response.data,null,4)}`)
+      res.json({
+	"blocks": [
+		{
+			"type": "image",
+			"title": {
+				"type": "plain_text",
+				"text": response.data.Title,
+				"emoji": true
+			},
+			"image_url": response.data.Poster,
+			"alt_text": `${response.data.Title} Poster`,
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": `The ${response.data.Type} you requested is ${response.data.Title}. \n\n*Plot Summary*\n${response.data.Plot}`
+			}
+		}
+	]
+})
+    } catch (error) {
+      console.error(error);
+      res.send(`got a failed slash request: ${JSON.stringify(req.body,null,4)}`)
+    }
+})```
+
 9. use [slack's block kit builder](https://app.slack.com/block-kit-builder) to get template code for formatting the response that your slash command prompts.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzI4NDI1NywxMjg4MzY0NzEyLDE2Mj
-EwNzA0OTQsNDkwMDE5MzY5LC0xODQ0NTQzMTYyLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTE3Mjk1NDYyMDIsMTI4ODM2NDcxMiwxNj
+IxMDcwNDk0LDQ5MDAxOTM2OSwtMTg0NDU0MzE2Miw3MzA5OTgx
+MTZdfQ==
 -->
