@@ -35,9 +35,10 @@
 3. select your watch-together app
 4. under "features" in the left column, select "Slash Commands"
 5. click "Create New Command"
-6. fill in the first four boxes and then save. you will be prompted to reinstall your app so do that. (for request URL, we used on ngrok URL and just made sure the end of it was /slack/watch as that is what we are going to 
+6. fill in the first four boxes and then save. you will be prompted to reinstall your app so do that. (for request URL, we used on ngrok URL and just made sure the end of it was "/slack/watch" as that is what we are going to create in atom)
+7. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODM1NDM1NCwxNjIxMDcwNDk0LDQ5MD
+eyJoaXN0b3J5IjpbMTI4ODM2NDcxMiwxNjIxMDcwNDk0LDQ5MD
 AxOTM2OSwtMTg0NDU0MzE2Miw3MzA5OTgxMTZdfQ==
 -->
