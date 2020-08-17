@@ -40,7 +40,8 @@
 8. in terminal, in your watch-together folder, type in `npm i axios` and hit enter to install axios.
 9. go to your `slack.js` file. require axios by adding `var axios = require('axios');` to the top of your file.
 10. go to [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios) and copy the `async` example code: 
-```async  function  getUser()  {
+```
+async  function  getUser()  {
  try  {
  const  response  =  await  axios.get('/user?ID=12345');
  console.log(response);
@@ -48,12 +49,49 @@
  console.error(error);
  }
 ```
-11. make some space for new code and add the above copied code and then start to edit. your end code *not sure how to add the code here, all at once? was having issues with formatting*
+11. make some space for new code and add the above copied code and then start to edit. your end code should look like:
+
+```
+router.post('/watch', async function(req, res, next){
+    try {
+      const response = await axios.get(`http://www.omdbapi.com/?apikey=${process.env.OMDB_API_KEY}&t=${encodeURI(req.body.text)}`);
+      console.log(response);
+      // res.send(`got a slash request: ${JSON.stringify(response.data,null,4)}`)
+      res.json({
+	"blocks": [
+		{
+			"type": "image",
+			"title": {
+				"type": "plain_text",
+				"text": response.data.Title,
+				"emoji": true
+			},
+			"image_url": response.data.Poster,
+			"alt_text": `${response.data.Title} Poster`,
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": `The ${response.data.Type} you requested is ${response.data.Title}. \n\n*Plot Summary*\n${response.data.Plot}`
+			}
+		}
+	]
+})
+    } catch (error) {
+      console.error(error);
+      res.send(`got a failed slash request: ${JSON.stringify(req.body,null,4)}`)
+    }
+})
+```
 12. use [slack's block kit builder](https://app.slack.com/block-kit-builder) to get template code for formatting the response that your slash command prompts.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTI3NDc1OSwtMTQzOTc0MTk2LC0xMz
+eyJoaXN0b3J5IjpbMTc1Nzg0NzMxMiwtMTQzOTc0MTk2LC0xMz
 g5MjM2NjYyLDEyODgzNjQ3MTIsMTYyMTA3MDQ5NCw0OTAwMTkz
 NjksLTE4NDQ1NDMxNjIsNzMwOTk4MTE2XX0=
 -->
