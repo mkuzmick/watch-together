@@ -30,9 +30,14 @@
 1. open the route `slack-events.js`. in the messages slack event, add part of the code from `airtable.js` to create an airtable record using a slack DM to your bot.
 
 ## slash command
-1. 
+1. go to [https://api.slack.com/](https://api.slack.com/)
+2. click "Your Apps" in the top right corner of the window
+3. select your watch-together app
+4. under "features" in the left column, select "Slash Commands"
+5. click "Create New Command"
+6. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTA3MDQ5NCw0OTAwMTkzNjksLTE4ND
-Q1NDMxNjIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTYyNDkwOTgzMSwxNjIxMDcwNDk0LDQ5MD
+AxOTM2OSwtMTg0NDU0MzE2Miw3MzA5OTgxMTZdfQ==
 -->
