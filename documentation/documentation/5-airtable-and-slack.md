@@ -75,11 +75,12 @@
     }
 })```
 
+
 9. use [slack's block kit builder](https://app.slack.com/block-kit-builder) to get template code for formatting the response that your slash command prompts.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkyMzY2NjIsMTI4ODM2NDcxMiwxNj
-IxMDcwNDk0LDQ5MDAxOTM2OSwtMTg0NDU0MzE2Miw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTI5MTcxMTI2OCwtMTM4OTIzNjY2MiwxMj
+g4MzY0NzEyLDE2MjEwNzA0OTQsNDkwMDE5MzY5LC0xODQ0NTQz
+MTYyLDczMDk5ODExNl19
 -->
