@@ -88,10 +88,11 @@ router.post('/watch', async function(req, res, next){
 })
 ```
 12. use [slack's block kit builder](https://app.slack.com/block-kit-builder) to get template code for formatting the response that your slash command prompts.
+13. try the slash command in slack. then use the JSON your terminal gives you to tweak your code in atom
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Nzg0NzMxMiwtMTQzOTc0MTk2LC0xMz
+eyJoaXN0b3J5IjpbLTYzOTUwMDEyMSwtMTQzOTc0MTk2LC0xMz
 g5MjM2NjYyLDEyODgzNjQ3MTIsMTYyMTA3MDQ5NCw0OTAwMTkz
 NjksLTE4NDQ1NDMxNjIsNzMwOTk4MTE2XX0=
 -->
