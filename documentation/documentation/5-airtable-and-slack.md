@@ -29,16 +29,17 @@
 ## slack-events.js
 1. open the route `slack-events.js`. in the messages slack event, add part of the code from `airtable.js` to create an airtable record using a slack DM to your bot.
 
-## slash command
+## slash command & OMDB
 1. go to [https://api.slack.com/](https://api.slack.com/)
 2. click "Your Apps" in the top right corner of the window
 3. select your watch-together app
 4. under "features" in the left column, select "Slash Commands"
 5. click "Create New Command"
-6. fill in the first four boxes and then save. you will be prompted to reinstall your app so do that. (for request URL, we used on ngrok URL and just made sure the end of it was "/slack/watch" as that is what we are going to create in atom)
-7. 
+6. fill in the first four boxes and then save. you will be prompted to reinstall your app so do that. (for request URL, we used on ngrok URL and just made sure the end of it was "/slack/watch" as that is what we are going to create in atom.)
+7. now, go to [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx) and sign up to get a free API key from the open movie database.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODM2NDcxMiwxNjIxMDcwNDk0LDQ5MD
-AxOTM2OSwtMTg0NDU0MzE2Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM5ODM0MTgzMCwxMjg4MzY0NzEyLDE2Mj
+EwNzA0OTQsNDkwMDE5MzY5LC0xODQ0NTQzMTYyLDczMDk5ODEx
+Nl19
 -->
