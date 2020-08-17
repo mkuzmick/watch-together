@@ -38,6 +38,8 @@
 6. fill in the first four boxes and then save. you will be prompted to reinstall your app so do that. (for request URL, we used on ngrok URL and just made sure the end of it was "/slack/watch" as that is what we are going to create in atom.)
 7. now, go to [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx) and sign up to get a free API key from the open movie database. copy the API key you are emailed so you can add it to your `.env` file in atom. you will need to format this information to match the format you already have there (for example: `OMDB_API_KEY=######`). then save.
 8. go to your `slack.js` file and make some space for new code.  
+
+
 ```router.post('/watch', async function(req, res, next){
     try {
       const response = await axios.get(`http://www.omdbapi.com/?apikey=${process.env.OMDB_API_KEY}&t=${encodeURI(req.body.text)}`);
@@ -77,7 +79,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk1NDYyMDIsMTI4ODM2NDcxMiwxNj
+eyJoaXN0b3J5IjpbLTEzODkyMzY2NjIsMTI4ODM2NDcxMiwxNj
 IxMDcwNDk0LDQ5MDAxOTM2OSwtMTg0NDU0MzE2Miw3MzA5OTgx
 MTZdfQ==
 -->
